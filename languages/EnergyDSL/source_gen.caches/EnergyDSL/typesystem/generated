@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="4u3j4ao1tf9pisvllkysk765rmnc8ws">
+  <files names="AllowedNames.java:TypesystemDescriptor.java:check_Consumer_NonTypesystemRule.java:check_DSO_NonTypesystemRule.java:check_EnergyTrading_NonTypesystemRule.java:check_Prosumer_NonTypesystemRule.java:check_SMC_NonTypesystemRule.java:typeof_CoreConceptRef_InferenceRule.java:typeof_EventArgRef_InferenceRule.java:typeof_EventArg_InferenceRule.java:typeof_FunctionRef_InferenceRule.java:typeof_TransactionArgRef_InferenceRule.java:typeof_TransactionArg_InferenceRule.java:typeof_Typess_InferenceRule.java:typeof_VarRef_InferenceRule.java" />
+</product>
+

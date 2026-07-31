@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="9,0,65,0" name="EnergyDSL.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:d923e83c-ce48-4a43-888a-e0b6b0fe8670(EnergyDSL.typesystem)/2067117006973022860">
+    <file name="TypesystemDescriptor.java">
+      <node id="2067117006973022860" at="11,5,12,86" concept="5" />
+      <node id="2067117006973022860" at="12,86,13,47" concept="2" />
+      <node id="2067117006973022860" at="10,33,14,5" concept="0" />
+      <scope id="2067117006973022860" at="11,5,13,47">
+        <var name="inferenceRule" id="2067117006973022860" />
+      </scope>
+    </file>
+    <file name="typeof_CoreConceptRef_InferenceRule.java">
+      <node id="2067117006973025229" at="21,5,22,56" concept="5" />
+      <node id="2067117006973025229" at="22,56,23,186" concept="5" />
+      <node id="2067117006973025229" at="23,186,24,406" concept="2" />
+      <node id="2067117006973022860" at="27,50,28,38" concept="6" />
+      <node id="2067117006973022860" at="30,68,31,102" concept="6" />
+      <node id="2067117006973022860" at="33,30,34,17" concept="6" />
+      <node id="2067117006973022860" at="38,0,39,0" concept="8" trace="core$p4Xt" />
+      <node id="2067117006973022860" at="42,0,43,0" concept="8" trace="CoreConceptRef$Y_" />
+      <node id="2067117006973022860" at="18,0,20,0" concept="1" trace="typeof_CoreConceptRef_InferenceRule#()V" />
+      <node id="2067117006973022860" at="27,0,30,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="2067117006973022860" at="30,0,33,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="2067117006973022860" at="33,0,36,0" concept="4" trace="overrides#()Z" />
+      <node id="2067117006973025229" at="20,127,25,5" concept="0" />
+      <node id="2067117006973022860" at="20,0,27,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="2067117006973022860" at="18,48,18,48" />
+      <scope id="2067117006973022860" at="27,50,28,38" />
+      <scope id="2067117006973022860" at="30,68,31,102" />
+      <scope id="2067117006973022860" at="33,30,34,17" />
+      <scope id="2067117006973022860" at="18,0,20,0" />
+      <scope id="2067117006973025229" at="21,5,24,406">
+        <var name="_info_12389875345" id="2067117006973025229" />
+        <var name="_nodeToCheck_1029348928467" id="2067117006973025229" />
+      </scope>
+      <scope id="2067117006973022860" at="27,0,30,0" />
+      <scope id="2067117006973022860" at="30,0,33,0">
+        <var name="argument" id="2067117006973022860" />
+      </scope>
+      <scope id="2067117006973022860" at="33,0,36,0" />
+      <scope id="2067117006973022861" at="20,127,25,5" />
+      <scope id="2067117006973022860" at="20,0,27,0">
+        <var name="coreConceptRef" id="2067117006973022860" />
+        <var name="status" id="2067117006973022860" />
+        <var name="typeCheckingContext" id="2067117006973022860" />
+      </scope>
+      <unit id="2067117006973022860" at="37,0,40,0" name="EnergyDSL.typesystem.typeof_CoreConceptRef_InferenceRule$LINKS" />
+      <unit id="2067117006973022860" at="41,0,44,0" name="EnergyDSL.typesystem.typeof_CoreConceptRef_InferenceRule$CONCEPTS" />
+      <unit id="2067117006973022860" at="17,0,45,0" name="EnergyDSL.typesystem.typeof_CoreConceptRef_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:d923e83c-ce48-4a43-888a-e0b6b0fe8670(EnergyDSL.typesystem)/251521737293871044">
+    <file name="TypesystemDescriptor.java">
+      <node id="251521737293871044" at="15,5,16,80" concept="5" />
+      <node id="251521737293871044" at="16,80,17,47" concept="2" />
+      <node id="251521737293871044" at="14,5,18,5" concept="0" />
+      <scope id="251521737293871044" at="15,5,17,47">
+        <var name="inferenceRule" id="251521737293871044" />
+      </scope>
+    </file>
+    <file name="typeof_EventArg_InferenceRule.java">
+      <node id="251521737293871889" at="21,5,22,50" concept="5" />
+      <node id="251521737293871889" at="22,50,23,185" concept="5" />
+      <node id="251521737293871889" at="23,185,24,398" concept="2" />
+      <node id="251521737293871044" at="27,50,28,32" concept="6" />
+      <node id="251521737293871044" at="30,68,31,102" concept="6" />
+      <node id="251521737293871044" at="33,30,34,17" concept="6" />
+      <node id="251521737293871044" at="38,0,39,0" concept="8" trace="type$hcHV" />
+      <node id="251521737293871044" at="42,0,43,0" concept="8" trace="EventArg$fJ" />
+      <node id="251521737293871044" at="18,0,20,0" concept="1" trace="typeof_EventArg_InferenceRule#()V" />
+      <node id="251521737293871044" at="27,0,30,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="251521737293871044" at="30,0,33,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="251521737293871044" at="33,0,36,0" concept="4" trace="overrides#()Z" />
+      <node id="251521737293871889" at="20,121,25,5" concept="0" />
+      <node id="251521737293871044" at="20,0,27,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="251521737293871044" at="18,42,18,42" />
+      <scope id="251521737293871044" at="27,50,28,32" />
+      <scope id="251521737293871044" at="30,68,31,102" />
+      <scope id="251521737293871044" at="33,30,34,17" />
+      <scope id="251521737293871044" at="18,0,20,0" />
+      <scope id="251521737293871889" at="21,5,24,398">
+        <var name="_info_12389875345" id="251521737293871889" />
+        <var name="_nodeToCheck_1029348928467" id="251521737293871889" />
+      </scope>
+      <scope id="251521737293871044" at="27,0,30,0" />
+      <scope id="251521737293871044" at="30,0,33,0">
+        <var name="argument" id="251521737293871044" />
+      </scope>
+      <scope id="251521737293871044" at="33,0,36,0" />
+      <scope id="251521737293871045" at="20,121,25,5" />
+      <scope id="251521737293871044" at="20,0,27,0">
+        <var name="eventArg" id="251521737293871044" />
+        <var name="status" id="251521737293871044" />
+        <var name="typeCheckingContext" id="251521737293871044" />
+      </scope>
+      <unit id="251521737293871044" at="37,0,40,0" name="EnergyDSL.typesystem.typeof_EventArg_InferenceRule$LINKS" />
+      <unit id="251521737293871044" at="41,0,44,0" name="EnergyDSL.typesystem.typeof_EventArg_InferenceRule$CONCEPTS" />
+      <unit id="251521737293871044" at="17,0,45,0" name="EnergyDSL.typesystem.typeof_EventArg_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:d923e83c-ce48-4a43-888a-e0b6b0fe8670(EnergyDSL.typesystem)/251521737293874199">
+    <file name="TypesystemDescriptor.java">
+      <node id="251521737293874199" at="19,5,20,83" concept="5" />
+      <node id="251521737293874199" at="20,83,21,47" concept="2" />
+      <node id="251521737293874199" at="18,5,22,5" concept="0" />
+      <scope id="251521737293874199" at="19,5,21,47">
+        <var name="inferenceRule" id="251521737293874199" />
+      </scope>
+    </file>
+    <file name="typeof_EventArgRef_InferenceRule.java">
+      <node id="251521737293875147" at="21,5,22,53" concept="5" />
+      <node id="251521737293875147" at="22,53,23,185" concept="5" />
+      <node id="251521737293875147" at="23,185,24,400" concept="2" />
+      <node id="251521737293874199" at="27,50,28,35" concept="6" />
+      <node id="251521737293874199" at="30,68,31,102" concept="6" />
+      <node id="251521737293874199" at="33,30,34,17" concept="6" />
+      <node id="251521737293874199" at="38,0,39,0" concept="8" trace="arg$BZJc" />
+      <node id="251521737293874199" at="42,0,43,0" concept="8" trace="EventArgRef$LJ" />
+      <node id="251521737293874199" at="18,0,20,0" concept="1" trace="typeof_EventArgRef_InferenceRule#()V" />
+      <node id="251521737293874199" at="27,0,30,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="251521737293874199" at="30,0,33,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="251521737293874199" at="33,0,36,0" concept="4" trace="overrides#()Z" />
+      <node id="251521737293875147" at="20,124,25,5" concept="0" />
+      <node id="251521737293874199" at="20,0,27,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="251521737293874199" at="18,45,18,45" />
+      <scope id="251521737293874199" at="27,50,28,35" />
+      <scope id="251521737293874199" at="30,68,31,102" />
+      <scope id="251521737293874199" at="33,30,34,17" />
+      <scope id="251521737293874199" at="18,0,20,0" />
+      <scope id="251521737293875147" at="21,5,24,400">
+        <var name="_info_12389875345" id="251521737293875147" />
+        <var name="_nodeToCheck_1029348928467" id="251521737293875147" />
+      </scope>
+      <scope id="251521737293874199" at="27,0,30,0" />
+      <scope id="251521737293874199" at="30,0,33,0">
+        <var name="argument" id="251521737293874199" />
+      </scope>
+      <scope id="251521737293874199" at="33,0,36,0" />
+      <scope id="251521737293874200" at="20,124,25,5" />
+      <scope id="251521737293874199" at="20,0,27,0">
+        <var name="eventArgRef" id="251521737293874199" />
+        <var name="status" id="251521737293874199" />
+        <var name="typeCheckingContext" id="251521737293874199" />
+      </scope>
+      <unit id="251521737293874199" at="37,0,40,0" name="EnergyDSL.typesystem.typeof_EventArgRef_InferenceRule$LINKS" />
+      <unit id="251521737293874199" at="41,0,44,0" name="EnergyDSL.typesystem.typeof_EventArgRef_InferenceRule$CONCEPTS" />
+      <unit id="251521737293874199" at="17,0,45,0" name="EnergyDSL.typesystem.typeof_EventArgRef_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:d923e83c-ce48-4a43-888a-e0b6b0fe8670(EnergyDSL.typesystem)/5644893578621794035">
+    <file name="TypesystemDescriptor.java">
+      <node id="5644893578621794035" at="39,5,40,78" concept="5" />
+      <node id="5644893578621794035" at="40,78,41,47" concept="2" />
+      <node id="5644893578621794035" at="38,5,42,5" concept="0" />
+      <scope id="5644893578621794035" at="39,5,41,47">
+        <var name="inferenceRule" id="5644893578621794035" />
+      </scope>
+    </file>
+    <file name="typeof_VarRef_InferenceRule.java">
+      <node id="5644893578621798437" at="21,5,22,48" concept="5" />
+      <node id="5644893578621798437" at="22,48,23,186" concept="5" />
+      <node id="5644893578621798437" at="23,186,24,399" concept="2" />
+      <node id="5644893578621794035" at="27,50,28,30" concept="6" />
+      <node id="5644893578621794035" at="30,68,31,102" concept="6" />
+      <node id="5644893578621794035" at="33,30,34,17" concept="6" />
+      <node id="5644893578621794035" at="38,0,39,0" concept="8" trace="varref$RqZ6" />
+      <node id="5644893578621794035" at="42,0,43,0" concept="8" trace="VarRef$b$" />
+      <node id="5644893578621794035" at="18,0,20,0" concept="1" trace="typeof_VarRef_InferenceRule#()V" />
+      <node id="5644893578621794035" at="27,0,30,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5644893578621794035" at="30,0,33,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="5644893578621794035" at="33,0,36,0" concept="4" trace="overrides#()Z" />
+      <node id="5644893578621798437" at="20,119,25,5" concept="0" />
+      <node id="5644893578621794035" at="20,0,27,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="5644893578621794035" at="18,40,18,40" />
+      <scope id="5644893578621794035" at="27,50,28,30" />
+      <scope id="5644893578621794035" at="30,68,31,102" />
+      <scope id="5644893578621794035" at="33,30,34,17" />
+      <scope id="5644893578621794035" at="18,0,20,0" />
+      <scope id="5644893578621798437" at="21,5,24,399">
+        <var name="_info_12389875345" id="5644893578621798437" />
+        <var name="_nodeToCheck_1029348928467" id="5644893578621798437" />
+      </scope>
+      <scope id="5644893578621794035" at="27,0,30,0" />
+      <scope id="5644893578621794035" at="30,0,33,0">
+        <var name="argument" id="5644893578621794035" />
+      </scope>
+      <scope id="5644893578621794035" at="33,0,36,0" />
+      <scope id="5644893578621794036" at="20,119,25,5" />
+      <scope id="5644893578621794035" at="20,0,27,0">
+        <var name="status" id="5644893578621794035" />
+        <var name="typeCheckingContext" id="5644893578621794035" />
+        <var name="varRef" id="5644893578621794035" />
+      </scope>
+      <unit id="5644893578621794035" at="37,0,40,0" name="EnergyDSL.typesystem.typeof_VarRef_InferenceRule$LINKS" />
+      <unit id="5644893578621794035" at="41,0,44,0" name="EnergyDSL.typesystem.typeof_VarRef_InferenceRule$CONCEPTS" />
+      <unit id="5644893578621794035" at="17,0,45,0" name="EnergyDSL.typesystem.typeof_VarRef_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:d923e83c-ce48-4a43-888a-e0b6b0fe8670(EnergyDSL.typesystem)/5952831952110468551">
+    <file name="TypesystemDescriptor.java">
+      <node id="5952831952110468551" at="23,5,24,83" concept="5" />
+      <node id="5952831952110468551" at="24,83,25,47" concept="2" />
+      <node id="5952831952110468551" at="22,5,26,5" concept="0" />
+      <scope id="5952831952110468551" at="23,5,25,47">
+        <var name="inferenceRule" id="5952831952110468551" />
+      </scope>
+    </file>
+    <file name="typeof_FunctionRef_InferenceRule.java">
+      <node id="6226064679562816661" at="21,5,22,53" concept="5" />
+      <node id="6226064679562816661" at="22,53,23,186" concept="5" />
+      <node id="6226064679562816661" at="23,186,24,405" concept="2" />
+      <node id="5952831952110468551" at="27,50,28,35" concept="6" />
+      <node id="5952831952110468551" at="30,68,31,102" concept="6" />
+      <node id="5952831952110468551" at="33,30,34,17" concept="6" />
+      <node id="5952831952110468551" at="38,0,39,0" concept="8" trace="funref$DWKd" />
+      <node id="5952831952110468551" at="42,0,43,0" concept="8" trace="FunctionRef$K3" />
+      <node id="5952831952110468551" at="18,0,20,0" concept="1" trace="typeof_FunctionRef_InferenceRule#()V" />
+      <node id="5952831952110468551" at="27,0,30,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5952831952110468551" at="30,0,33,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="5952831952110468551" at="33,0,36,0" concept="4" trace="overrides#()Z" />
+      <node id="6226064679562816661" at="20,124,25,5" concept="0" />
+      <node id="5952831952110468551" at="20,0,27,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="5952831952110468551" at="18,45,18,45" />
+      <scope id="5952831952110468551" at="27,50,28,35" />
+      <scope id="5952831952110468551" at="30,68,31,102" />
+      <scope id="5952831952110468551" at="33,30,34,17" />
+      <scope id="5952831952110468551" at="18,0,20,0" />
+      <scope id="6226064679562816661" at="21,5,24,405">
+        <var name="_info_12389875345" id="6226064679562816661" />
+        <var name="_nodeToCheck_1029348928467" id="6226064679562816661" />
+      </scope>
+      <scope id="5952831952110468551" at="27,0,30,0" />
+      <scope id="5952831952110468551" at="30,0,33,0">
+        <var name="argument" id="5952831952110468551" />
+      </scope>
+      <scope id="5952831952110468551" at="33,0,36,0" />
+      <scope id="5952831952110468552" at="20,124,25,5" />
+      <scope id="5952831952110468551" at="20,0,27,0">
+        <var name="functionRef" id="5952831952110468551" />
+        <var name="status" id="5952831952110468551" />
+        <var name="typeCheckingContext" id="5952831952110468551" />
+      </scope>
+      <unit id="5952831952110468551" at="37,0,40,0" name="EnergyDSL.typesystem.typeof_FunctionRef_InferenceRule$LINKS" />
+      <unit id="5952831952110468551" at="41,0,44,0" name="EnergyDSL.typesystem.typeof_FunctionRef_InferenceRule$CONCEPTS" />
+      <unit id="5952831952110468551" at="17,0,45,0" name="EnergyDSL.typesystem.typeof_FunctionRef_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:d923e83c-ce48-4a43-888a-e0b6b0fe8670(EnergyDSL.typesystem)/6275414299264210328">
+    <file name="TypesystemDescriptor.java">
+      <node id="6275414299264210328" at="43,5,44,91" concept="5" />
+      <node id="6275414299264210328" at="44,91,45,55" concept="2" />
+      <node id="6275414299264210328" at="42,5,46,5" concept="0" />
+      <scope id="6275414299264210328" at="43,5,45,55">
+        <var name="nonTypesystemRule" id="6275414299264210328" />
+      </scope>
+    </file>
+    <file name="check_Consumer_NonTypesystemRule.java">
+      <node id="8507768290585964615" at="29,35,30,206" concept="2" />
+      <node id="6275414299264216019" at="30,206,31,0" concept="7" />
+      <node id="6275414299264216022" at="33,11,34,70" concept="5" />
+      <node id="6275414299264216022" at="34,70,35,465" concept="5" />
+      <node id="6275414299264210328" at="41,50,42,32" concept="6" />
+      <node id="6275414299264210328" at="44,68,45,102" concept="6" />
+      <node id="6275414299264210328" at="47,30,48,17" concept="6" />
+      <node id="6275414299264210328" at="52,0,53,0" concept="8" trace="contransactions$dQUM" />
+      <node id="6275414299264210328" at="56,0,57,0" concept="8" trace="name$MnvL" />
+      <node id="6275414299264210328" at="60,0,61,0" concept="8" trace="Consumer$R9" />
+      <node id="6275414299264210328" at="25,0,27,0" concept="1" trace="check_Consumer_NonTypesystemRule#()V" />
+      <node id="6275414299264210328" at="41,0,44,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6275414299264210328" at="44,0,47,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="6275414299264210328" at="47,0,50,0" concept="4" trace="overrides#()Z" />
+      <node id="6275414299264216022" at="32,215,36,11" concept="0" />
+      <node id="6275414299264216020" at="31,0,37,9" concept="3" />
+      <node id="6275414299264215962" at="29,0,39,0" concept="4" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6275414299264215955" at="27,121,39,7" concept="2" />
+      <node id="6275414299264210328" at="27,0,41,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="6275414299264210328" at="25,45,25,45" />
+      <scope id="6275414299264210328" at="41,50,42,32" />
+      <scope id="6275414299264210328" at="44,68,45,102" />
+      <scope id="6275414299264210328" at="47,30,48,17" />
+      <scope id="6275414299264210328" at="25,0,27,0" />
+      <scope id="6275414299264216022" at="33,11,35,465">
+        <var name="_reporter_2309309498" id="6275414299264216022" />
+        <var name="errorTarget" id="6275414299264216022" />
+      </scope>
+      <scope id="6275414299264210328" at="41,0,44,0" />
+      <scope id="6275414299264210328" at="44,0,47,0">
+        <var name="argument" id="6275414299264210328" />
+      </scope>
+      <scope id="6275414299264210328" at="47,0,50,0" />
+      <scope id="6275414299264216021" at="32,215,36,11" />
+      <scope id="6275414299264215963" at="29,35,37,9" />
+      <scope id="6275414299264215962" at="29,0,39,0">
+        <var name="it" id="6275414299264215962" />
+      </scope>
+      <scope id="6275414299264210329" at="27,121,39,7" />
+      <scope id="6275414299264210328" at="27,0,41,0">
+        <var name="consumer" id="6275414299264210328" />
+        <var name="status" id="6275414299264210328" />
+        <var name="typeCheckingContext" id="6275414299264210328" />
+      </scope>
+      <unit id="6275414299264210328" at="51,0,54,0" name="EnergyDSL.typesystem.check_Consumer_NonTypesystemRule$LINKS" />
+      <unit id="6275414299264210328" at="55,0,58,0" name="EnergyDSL.typesystem.check_Consumer_NonTypesystemRule$PROPS" />
+      <unit id="6275414299264210328" at="59,0,62,0" name="EnergyDSL.typesystem.check_Consumer_NonTypesystemRule$CONCEPTS" />
+      <unit id="6275414299264215962" at="28,106,39,5" name="EnergyDSL.typesystem.check_Consumer_NonTypesystemRule$1" />
+      <unit id="6275414299264210328" at="24,0,63,0" name="EnergyDSL.typesystem.check_Consumer_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:d923e83c-ce48-4a43-888a-e0b6b0fe8670(EnergyDSL.typesystem)/6770213348961640145">
+    <file name="TypesystemDescriptor.java">
+      <node id="6770213348961640145" at="47,5,48,86" concept="5" />
+      <node id="6770213348961640145" at="48,86,49,55" concept="2" />
+      <node id="6770213348961640145" at="46,5,50,5" concept="0" />
+      <scope id="6770213348961640145" at="47,5,49,55">
+        <var name="nonTypesystemRule" id="6770213348961640145" />
+      </scope>
+    </file>
+    <file name="check_DSO_NonTypesystemRule.java">
+      <node id="7148303523604039365" at="27,116,28,0" concept="7" />
+      <node id="7148303523604040148" at="30,35,31,201" concept="2" />
+      <node id="6770213348961645367" at="31,201,32,0" concept="7" />
+      <node id="6770213348961645370" at="34,11,35,70" concept="5" />
+      <node id="6770213348961645370" at="35,70,36,460" concept="5" />
+      <node id="6770213348961640145" at="42,50,43,27" concept="6" />
+      <node id="6770213348961640145" at="45,68,46,102" concept="6" />
+      <node id="6770213348961640145" at="48,30,49,17" concept="6" />
+      <node id="6770213348961640145" at="53,0,54,0" concept="8" trace="dsoTransactions$qxkl" />
+      <node id="6770213348961640145" at="57,0,58,0" concept="8" trace="name$MnvL" />
+      <node id="6770213348961640145" at="61,0,62,0" concept="8" trace="DSO$OZ" />
+      <node id="6770213348961640145" at="25,0,27,0" concept="1" trace="check_DSO_NonTypesystemRule#()V" />
+      <node id="6770213348961640145" at="42,0,45,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6770213348961640145" at="45,0,48,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="6770213348961640145" at="48,0,51,0" concept="4" trace="overrides#()Z" />
+      <node id="6770213348961645370" at="33,210,37,11" concept="0" />
+      <node id="6770213348961645368" at="32,0,38,9" concept="3" />
+      <node id="6770213348961645310" at="30,0,40,0" concept="4" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6770213348961645303" at="28,0,40,7" concept="2" />
+      <node id="6770213348961640145" at="27,0,42,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="6770213348961640145" at="25,40,25,40" />
+      <scope id="6770213348961640145" at="42,50,43,27" />
+      <scope id="6770213348961640145" at="45,68,46,102" />
+      <scope id="6770213348961640145" at="48,30,49,17" />
+      <scope id="6770213348961640145" at="25,0,27,0" />
+      <scope id="6770213348961645370" at="34,11,36,460">
+        <var name="_reporter_2309309498" id="6770213348961645370" />
+        <var name="errorTarget" id="6770213348961645370" />
+      </scope>
+      <scope id="6770213348961640145" at="42,0,45,0" />
+      <scope id="6770213348961640145" at="45,0,48,0">
+        <var name="argument" id="6770213348961640145" />
+      </scope>
+      <scope id="6770213348961640145" at="48,0,51,0" />
+      <scope id="6770213348961645369" at="33,210,37,11" />
+      <scope id="6770213348961645311" at="30,35,38,9" />
+      <scope id="6770213348961645310" at="30,0,40,0">
+        <var name="it" id="6770213348961645310" />
+      </scope>
+      <scope id="6770213348961640146" at="27,116,40,7" />
+      <scope id="6770213348961640145" at="27,0,42,0">
+        <var name="dso" id="6770213348961640145" />
+        <var name="status" id="6770213348961640145" />
+        <var name="typeCheckingContext" id="6770213348961640145" />
+      </scope>
+      <unit id="6770213348961640145" at="52,0,55,0" name="EnergyDSL.typesystem.check_DSO_NonTypesystemRule$LINKS" />
+      <unit id="6770213348961640145" at="56,0,59,0" name="EnergyDSL.typesystem.check_DSO_NonTypesystemRule$PROPS" />
+      <unit id="6770213348961640145" at="60,0,63,0" name="EnergyDSL.typesystem.check_DSO_NonTypesystemRule$CONCEPTS" />
+      <unit id="6770213348961645310" at="29,101,40,5" name="EnergyDSL.typesystem.check_DSO_NonTypesystemRule$1" />
+      <unit id="6770213348961640145" at="24,0,64,0" name="EnergyDSL.typesystem.check_DSO_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:d923e83c-ce48-4a43-888a-e0b6b0fe8670(EnergyDSL.typesystem)/6770213348961683852">
+    <file name="TypesystemDescriptor.java">
+      <node id="6770213348961683852" at="51,5,52,96" concept="5" />
+      <node id="6770213348961683852" at="52,96,53,55" concept="2" />
+      <node id="6770213348961683852" at="50,5,54,5" concept="0" />
+      <scope id="6770213348961683852" at="51,5,53,55">
+        <var name="nonTypesystemRule" id="6770213348961683852" />
+      </scope>
+    </file>
+    <file name="check_EnergyTrading_NonTypesystemRule.java">
+      <node id="7148303523604516543" at="29,35,30,211" concept="2" />
+      <node id="6770213348961684079" at="30,211,31,0" concept="7" />
+      <node id="6770213348961684082" at="33,11,34,70" concept="5" />
+      <node id="6770213348961684082" at="34,70,35,470" concept="5" />
+      <node id="6770213348961683852" at="41,50,42,37" concept="6" />
+      <node id="6770213348961683852" at="44,68,45,102" concept="6" />
+      <node id="6770213348961683852" at="47,30,48,17" concept="6" />
+      <node id="6770213348961683852" at="52,0,53,0" concept="8" trace="energyTransactions$zWIT" />
+      <node id="6770213348961683852" at="56,0,57,0" concept="8" trace="name$MnvL" />
+      <node id="6770213348961683852" at="60,0,61,0" concept="8" trace="EnergyTrading$c5" />
+      <node id="6770213348961683852" at="25,0,27,0" concept="1" trace="check_EnergyTrading_NonTypesystemRule#()V" />
+      <node id="6770213348961683852" at="41,0,44,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6770213348961683852" at="44,0,47,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="6770213348961683852" at="47,0,50,0" concept="4" trace="overrides#()Z" />
+      <node id="6770213348961684082" at="32,220,36,11" concept="0" />
+      <node id="6770213348961684080" at="31,0,37,9" concept="3" />
+      <node id="6770213348961684022" at="29,0,39,0" concept="4" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6770213348961684015" at="27,126,39,7" concept="2" />
+      <node id="6770213348961683852" at="27,0,41,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="6770213348961683852" at="25,50,25,50" />
+      <scope id="6770213348961683852" at="41,50,42,37" />
+      <scope id="6770213348961683852" at="44,68,45,102" />
+      <scope id="6770213348961683852" at="47,30,48,17" />
+      <scope id="6770213348961683852" at="25,0,27,0" />
+      <scope id="6770213348961684082" at="33,11,35,470">
+        <var name="_reporter_2309309498" id="6770213348961684082" />
+        <var name="errorTarget" id="6770213348961684082" />
+      </scope>
+      <scope id="6770213348961683852" at="41,0,44,0" />
+      <scope id="6770213348961683852" at="44,0,47,0">
+        <var name="argument" id="6770213348961683852" />
+      </scope>
+      <scope id="6770213348961683852" at="47,0,50,0" />
+      <scope id="6770213348961684081" at="32,220,36,11" />
+      <scope id="6770213348961684023" at="29,35,37,9" />
+      <scope id="6770213348961684022" at="29,0,39,0">
+        <var name="it" id="6770213348961684022" />
+      </scope>
+      <scope id="6770213348961683853" at="27,126,39,7" />
+      <scope id="6770213348961683852" at="27,0,41,0">
+        <var name="energyTrading" id="6770213348961683852" />
+        <var name="status" id="6770213348961683852" />
+        <var name="typeCheckingContext" id="6770213348961683852" />
+      </scope>
+      <unit id="6770213348961683852" at="51,0,54,0" name="EnergyDSL.typesystem.check_EnergyTrading_NonTypesystemRule$LINKS" />
+      <unit id="6770213348961683852" at="55,0,58,0" name="EnergyDSL.typesystem.check_EnergyTrading_NonTypesystemRule$PROPS" />
+      <unit id="6770213348961683852" at="59,0,62,0" name="EnergyDSL.typesystem.check_EnergyTrading_NonTypesystemRule$CONCEPTS" />
+      <unit id="6770213348961684022" at="28,114,39,5" name="EnergyDSL.typesystem.check_EnergyTrading_NonTypesystemRule$1" />
+      <unit id="6770213348961683852" at="24,0,63,0" name="EnergyDSL.typesystem.check_EnergyTrading_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:d923e83c-ce48-4a43-888a-e0b6b0fe8670(EnergyDSL.typesystem)/6770213348961702942">
+    <file name="TypesystemDescriptor.java">
+      <node id="6770213348961702942" at="55,5,56,91" concept="5" />
+      <node id="6770213348961702942" at="56,91,57,55" concept="2" />
+      <node id="6770213348961702942" at="54,5,58,5" concept="0" />
+      <scope id="6770213348961702942" at="55,5,57,55">
+        <var name="nonTypesystemRule" id="6770213348961702942" />
+      </scope>
+    </file>
+    <file name="check_Prosumer_NonTypesystemRule.java">
+      <node id="7148303523604542443" at="29,35,30,206" concept="2" />
+      <node id="6770213348961703143" at="30,206,31,0" concept="7" />
+      <node id="6770213348961703146" at="33,11,34,70" concept="5" />
+      <node id="6770213348961703146" at="34,70,35,465" concept="5" />
+      <node id="6770213348961702942" at="41,50,42,32" concept="6" />
+      <node id="6770213348961702942" at="44,68,45,102" concept="6" />
+      <node id="6770213348961702942" at="47,30,48,17" concept="6" />
+      <node id="6770213348961702942" at="52,0,53,0" concept="8" trace="prosumerTransactions$Jkqg" />
+      <node id="6770213348961702942" at="56,0,57,0" concept="8" trace="name$MnvL" />
+      <node id="6770213348961702942" at="60,0,61,0" concept="8" trace="Prosumer$wK" />
+      <node id="6770213348961702942" at="25,0,27,0" concept="1" trace="check_Prosumer_NonTypesystemRule#()V" />
+      <node id="6770213348961702942" at="41,0,44,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6770213348961702942" at="44,0,47,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="6770213348961702942" at="47,0,50,0" concept="4" trace="overrides#()Z" />
+      <node id="6770213348961703146" at="32,215,36,11" concept="0" />
+      <node id="6770213348961703144" at="31,0,37,9" concept="3" />
+      <node id="6770213348961703086" at="29,0,39,0" concept="4" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6770213348961703079" at="27,121,39,7" concept="2" />
+      <node id="6770213348961702942" at="27,0,41,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="6770213348961702942" at="25,45,25,45" />
+      <scope id="6770213348961702942" at="41,50,42,32" />
+      <scope id="6770213348961702942" at="44,68,45,102" />
+      <scope id="6770213348961702942" at="47,30,48,17" />
+      <scope id="6770213348961702942" at="25,0,27,0" />
+      <scope id="6770213348961703146" at="33,11,35,465">
+        <var name="_reporter_2309309498" id="6770213348961703146" />
+        <var name="errorTarget" id="6770213348961703146" />
+      </scope>
+      <scope id="6770213348961702942" at="41,0,44,0" />
+      <scope id="6770213348961702942" at="44,0,47,0">
+        <var name="argument" id="6770213348961702942" />
+      </scope>
+      <scope id="6770213348961702942" at="47,0,50,0" />
+      <scope id="6770213348961703145" at="32,215,36,11" />
+      <scope id="6770213348961703087" at="29,35,37,9" />
+      <scope id="6770213348961703086" at="29,0,39,0">
+        <var name="it" id="6770213348961703086" />
+      </scope>
+      <scope id="6770213348961702943" at="27,121,39,7" />
+      <scope id="6770213348961702942" at="27,0,41,0">
+        <var name="prosumer" id="6770213348961702942" />
+        <var name="status" id="6770213348961702942" />
+        <var name="typeCheckingContext" id="6770213348961702942" />
+      </scope>
+      <unit id="6770213348961702942" at="51,0,54,0" name="EnergyDSL.typesystem.check_Prosumer_NonTypesystemRule$LINKS" />
+      <unit id="6770213348961702942" at="55,0,58,0" name="EnergyDSL.typesystem.check_Prosumer_NonTypesystemRule$PROPS" />
+      <unit id="6770213348961702942" at="59,0,62,0" name="EnergyDSL.typesystem.check_Prosumer_NonTypesystemRule$CONCEPTS" />
+      <unit id="6770213348961703086" at="28,111,39,5" name="EnergyDSL.typesystem.check_Prosumer_NonTypesystemRule$1" />
+      <unit id="6770213348961702942" at="24,0,63,0" name="EnergyDSL.typesystem.check_Prosumer_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:d923e83c-ce48-4a43-888a-e0b6b0fe8670(EnergyDSL.typesystem)/6770213348961717356">
+    <file name="TypesystemDescriptor.java">
+      <node id="6770213348961717356" at="59,5,60,86" concept="5" />
+      <node id="6770213348961717356" at="60,86,61,55" concept="2" />
+      <node id="6770213348961717356" at="58,5,62,5" concept="0" />
+      <scope id="6770213348961717356" at="59,5,61,55">
+        <var name="nonTypesystemRule" id="6770213348961717356" />
+      </scope>
+    </file>
+    <file name="check_SMC_NonTypesystemRule.java">
+      <node id="7148303523604574946" at="29,35,30,201" concept="2" />
+      <node id="6770213348961718984" at="30,201,31,0" concept="7" />
+      <node id="6770213348961718987" at="33,11,34,70" concept="5" />
+      <node id="6770213348961718987" at="34,70,35,460" concept="5" />
+      <node id="6770213348961718165" at="39,7,40,0" concept="7" />
+      <node id="6770213348961717356" at="42,50,43,27" concept="6" />
+      <node id="6770213348961717356" at="45,68,46,102" concept="6" />
+      <node id="6770213348961717356" at="48,30,49,17" concept="6" />
+      <node id="6770213348961717356" at="53,0,54,0" concept="8" trace="smcTransactions$sDm7" />
+      <node id="6770213348961717356" at="57,0,58,0" concept="8" trace="name$MnvL" />
+      <node id="6770213348961717356" at="61,0,62,0" concept="8" trace="SMC$Pz" />
+      <node id="6770213348961717356" at="25,0,27,0" concept="1" trace="check_SMC_NonTypesystemRule#()V" />
+      <node id="6770213348961717356" at="42,0,45,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6770213348961717356" at="45,0,48,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="6770213348961717356" at="48,0,51,0" concept="4" trace="overrides#()Z" />
+      <node id="6770213348961718987" at="32,210,36,11" concept="0" />
+      <node id="6770213348961718985" at="31,0,37,9" concept="3" />
+      <node id="6770213348961718927" at="29,0,39,0" concept="4" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6770213348961718920" at="27,116,39,7" concept="2" />
+      <node id="6770213348961717356" at="27,0,42,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="6770213348961717356" at="25,40,25,40" />
+      <scope id="6770213348961717356" at="42,50,43,27" />
+      <scope id="6770213348961717356" at="45,68,46,102" />
+      <scope id="6770213348961717356" at="48,30,49,17" />
+      <scope id="6770213348961717356" at="25,0,27,0" />
+      <scope id="6770213348961718987" at="33,11,35,460">
+        <var name="_reporter_2309309498" id="6770213348961718987" />
+        <var name="errorTarget" id="6770213348961718987" />
+      </scope>
+      <scope id="6770213348961717356" at="42,0,45,0" />
+      <scope id="6770213348961717356" at="45,0,48,0">
+        <var name="argument" id="6770213348961717356" />
+      </scope>
+      <scope id="6770213348961717356" at="48,0,51,0" />
+      <scope id="6770213348961718986" at="32,210,36,11" />
+      <scope id="6770213348961718928" at="29,35,37,9" />
+      <scope id="6770213348961718927" at="29,0,39,0">
+        <var name="it" id="6770213348961718927" />
+      </scope>
+      <scope id="6770213348961717357" at="27,116,40,0" />
+      <scope id="6770213348961717356" at="27,0,42,0">
+        <var name="smc" id="6770213348961717356" />
+        <var name="status" id="6770213348961717356" />
+        <var name="typeCheckingContext" id="6770213348961717356" />
+      </scope>
+      <unit id="6770213348961717356" at="52,0,55,0" name="EnergyDSL.typesystem.check_SMC_NonTypesystemRule$LINKS" />
+      <unit id="6770213348961717356" at="56,0,59,0" name="EnergyDSL.typesystem.check_SMC_NonTypesystemRule$PROPS" />
+      <unit id="6770213348961717356" at="60,0,63,0" name="EnergyDSL.typesystem.check_SMC_NonTypesystemRule$CONCEPTS" />
+      <unit id="6770213348961718927" at="28,101,39,5" name="EnergyDSL.typesystem.check_SMC_NonTypesystemRule$1" />
+      <unit id="6770213348961717356" at="24,0,64,0" name="EnergyDSL.typesystem.check_SMC_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:d923e83c-ce48-4a43-888a-e0b6b0fe8670(EnergyDSL.typesystem)/7003027276159003038">
+    <file name="TypesystemDescriptor.java">
+      <node id="7003027276159003038" at="31,5,32,89" concept="5" />
+      <node id="7003027276159003038" at="32,89,33,47" concept="2" />
+      <node id="7003027276159003038" at="30,5,34,5" concept="0" />
+      <scope id="7003027276159003038" at="31,5,33,47">
+        <var name="inferenceRule" id="7003027276159003038" />
+      </scope>
+    </file>
+    <file name="typeof_TransactionArgRef_InferenceRule.java">
+      <node id="7003027276159004074" at="21,5,22,59" concept="5" />
+      <node id="7003027276159004074" at="22,59,23,186" concept="5" />
+      <node id="7003027276159004074" at="23,186,24,408" concept="2" />
+      <node id="7003027276159003038" at="27,50,28,41" concept="6" />
+      <node id="7003027276159003038" at="30,68,31,102" concept="6" />
+      <node id="7003027276159003038" at="33,30,34,17" concept="6" />
+      <node id="7003027276159003038" at="38,0,39,0" concept="8" trace="arg$bRzn" />
+      <node id="7003027276159003038" at="42,0,43,0" concept="8" trace="TransactionArgRef$uw" />
+      <node id="7003027276159003038" at="18,0,20,0" concept="1" trace="typeof_TransactionArgRef_InferenceRule#()V" />
+      <node id="7003027276159003038" at="27,0,30,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="7003027276159003038" at="30,0,33,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="7003027276159003038" at="33,0,36,0" concept="4" trace="overrides#()Z" />
+      <node id="7003027276159004074" at="20,130,25,5" concept="0" />
+      <node id="7003027276159003038" at="20,0,27,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="7003027276159003038" at="18,51,18,51" />
+      <scope id="7003027276159003038" at="27,50,28,41" />
+      <scope id="7003027276159003038" at="30,68,31,102" />
+      <scope id="7003027276159003038" at="33,30,34,17" />
+      <scope id="7003027276159003038" at="18,0,20,0" />
+      <scope id="7003027276159004074" at="21,5,24,408">
+        <var name="_info_12389875345" id="7003027276159004074" />
+        <var name="_nodeToCheck_1029348928467" id="7003027276159004074" />
+      </scope>
+      <scope id="7003027276159003038" at="27,0,30,0" />
+      <scope id="7003027276159003038" at="30,0,33,0">
+        <var name="argument" id="7003027276159003038" />
+      </scope>
+      <scope id="7003027276159003038" at="33,0,36,0" />
+      <scope id="7003027276159003039" at="20,130,25,5" />
+      <scope id="7003027276159003038" at="20,0,27,0">
+        <var name="status" id="7003027276159003038" />
+        <var name="transactionArgRef" id="7003027276159003038" />
+        <var name="typeCheckingContext" id="7003027276159003038" />
+      </scope>
+      <unit id="7003027276159003038" at="37,0,40,0" name="EnergyDSL.typesystem.typeof_TransactionArgRef_InferenceRule$LINKS" />
+      <unit id="7003027276159003038" at="41,0,44,0" name="EnergyDSL.typesystem.typeof_TransactionArgRef_InferenceRule$CONCEPTS" />
+      <unit id="7003027276159003038" at="17,0,45,0" name="EnergyDSL.typesystem.typeof_TransactionArgRef_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:d923e83c-ce48-4a43-888a-e0b6b0fe8670(EnergyDSL.typesystem)/7370501206379728924">
+    <file name="TypesystemDescriptor.java">
+      <node id="7370501206379728924" at="35,5,36,78" concept="5" />
+      <node id="7370501206379728924" at="36,78,37,47" concept="2" />
+      <node id="7370501206379728924" at="34,5,38,5" concept="0" />
+      <scope id="7370501206379728924" at="35,5,37,47">
+        <var name="inferenceRule" id="7370501206379728924" />
+      </scope>
+    </file>
+    <file name="typeof_Typess_InferenceRule.java">
+      <node id="7370501206379731742" at="21,5,22,48" concept="5" />
+      <node id="7370501206379731742" at="22,48,23,186" concept="5" />
+      <node id="7370501206379731742" at="23,186,24,398" concept="2" />
+      <node id="7370501206379728924" at="27,50,28,28" concept="6" />
+      <node id="7370501206379728924" at="30,68,31,102" concept="6" />
+      <node id="7370501206379728924" at="33,30,34,17" concept="6" />
+      <node id="7370501206379728924" at="38,0,39,0" concept="8" trace="type$eLHV" />
+      <node id="7370501206379728924" at="42,0,43,0" concept="8" trace="Type$_5" />
+      <node id="7370501206379728924" at="18,0,20,0" concept="1" trace="typeof_Typess_InferenceRule#()V" />
+      <node id="7370501206379728924" at="27,0,30,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="7370501206379728924" at="30,0,33,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="7370501206379728924" at="33,0,36,0" concept="4" trace="overrides#()Z" />
+      <node id="7370501206379731742" at="20,119,25,5" concept="0" />
+      <node id="7370501206379728924" at="20,0,27,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="7370501206379728924" at="18,40,18,40" />
+      <scope id="7370501206379728924" at="27,50,28,28" />
+      <scope id="7370501206379728924" at="30,68,31,102" />
+      <scope id="7370501206379728924" at="33,30,34,17" />
+      <scope id="7370501206379728924" at="18,0,20,0" />
+      <scope id="7370501206379731742" at="21,5,24,398">
+        <var name="_info_12389875345" id="7370501206379731742" />
+        <var name="_nodeToCheck_1029348928467" id="7370501206379731742" />
+      </scope>
+      <scope id="7370501206379728924" at="27,0,30,0" />
+      <scope id="7370501206379728924" at="30,0,33,0">
+        <var name="argument" id="7370501206379728924" />
+      </scope>
+      <scope id="7370501206379728924" at="33,0,36,0" />
+      <scope id="7370501206379728925" at="20,119,25,5" />
+      <scope id="7370501206379728924" at="20,0,27,0">
+        <var name="status" id="7370501206379728924" />
+        <var name="typeCheckingContext" id="7370501206379728924" />
+        <var name="typess" id="7370501206379728924" />
+      </scope>
+      <unit id="7370501206379728924" at="37,0,40,0" name="EnergyDSL.typesystem.typeof_Typess_InferenceRule$LINKS" />
+      <unit id="7370501206379728924" at="41,0,44,0" name="EnergyDSL.typesystem.typeof_Typess_InferenceRule$CONCEPTS" />
+      <unit id="7370501206379728924" at="17,0,45,0" name="EnergyDSL.typesystem.typeof_Typess_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:d923e83c-ce48-4a43-888a-e0b6b0fe8670(EnergyDSL.typesystem)/8507768290585956387">
+    <file name="AllowedNames.java">
+      <node id="7148303523603454974" at="8,0,9,0" concept="8" trace="allowedCommonTransactionNames" />
+      <node id="8507768290585956536" at="10,0,11,0" concept="8" trace="allowedConsumerTransactionNames" />
+      <node id="7148303523603459079" at="12,0,13,0" concept="8" trace="allowedProsumerTransactionNames" />
+      <node id="7148303523603462235" at="14,0,15,0" concept="8" trace="allowedDSOTransactionNames" />
+      <node id="7148303523603466348" at="16,0,17,0" concept="8" trace="allowedSMCTransactionNames" />
+      <node id="7148303523603475223" at="18,0,19,0" concept="8" trace="allowedEnergyTradingTransactionNames" />
+      <unit id="8507768290585956387" at="7,0,21,0" name="EnergyDSL.typesystem.AllowedNames" />
+    </file>
+  </root>
+  <root nodeRef="r:d923e83c-ce48-4a43-888a-e0b6b0fe8670(EnergyDSL.typesystem)/8603685652496709591">
+    <file name="TypesystemDescriptor.java">
+      <node id="8603685652496709591" at="27,5,28,86" concept="5" />
+      <node id="8603685652496709591" at="28,86,29,47" concept="2" />
+      <node id="8603685652496709591" at="26,5,30,5" concept="0" />
+      <scope id="8603685652496709591" at="27,5,29,47">
+        <var name="inferenceRule" id="8603685652496709591" />
+      </scope>
+    </file>
+    <file name="typeof_TransactionArg_InferenceRule.java">
+      <node id="8603685652496710364" at="21,5,22,56" concept="5" />
+      <node id="8603685652496710364" at="22,56,23,186" concept="5" />
+      <node id="8603685652496710364" at="23,186,24,405" concept="2" />
+      <node id="8603685652496709591" at="27,50,28,38" concept="6" />
+      <node id="8603685652496709591" at="30,68,31,102" concept="6" />
+      <node id="8603685652496709591" at="33,30,34,17" concept="6" />
+      <node id="8603685652496709591" at="38,0,39,0" concept="8" trace="type$$WG" />
+      <node id="8603685652496709591" at="42,0,43,0" concept="8" trace="TransactionArg$NK" />
+      <node id="8603685652496709591" at="18,0,20,0" concept="1" trace="typeof_TransactionArg_InferenceRule#()V" />
+      <node id="8603685652496709591" at="27,0,30,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="8603685652496709591" at="30,0,33,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="8603685652496709591" at="33,0,36,0" concept="4" trace="overrides#()Z" />
+      <node id="8603685652496710364" at="20,127,25,5" concept="0" />
+      <node id="8603685652496709591" at="20,0,27,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="8603685652496709591" at="18,48,18,48" />
+      <scope id="8603685652496709591" at="27,50,28,38" />
+      <scope id="8603685652496709591" at="30,68,31,102" />
+      <scope id="8603685652496709591" at="33,30,34,17" />
+      <scope id="8603685652496709591" at="18,0,20,0" />
+      <scope id="8603685652496710364" at="21,5,24,405">
+        <var name="_info_12389875345" id="8603685652496710364" />
+        <var name="_nodeToCheck_1029348928467" id="8603685652496710364" />
+      </scope>
+      <scope id="8603685652496709591" at="27,0,30,0" />
+      <scope id="8603685652496709591" at="30,0,33,0">
+        <var name="argument" id="8603685652496709591" />
+      </scope>
+      <scope id="8603685652496709591" at="33,0,36,0" />
+      <scope id="8603685652496709592" at="20,127,25,5" />
+      <scope id="8603685652496709591" at="20,0,27,0">
+        <var name="status" id="8603685652496709591" />
+        <var name="transactionArg" id="8603685652496709591" />
+        <var name="typeCheckingContext" id="8603685652496709591" />
+      </scope>
+      <unit id="8603685652496709591" at="37,0,40,0" name="EnergyDSL.typesystem.typeof_TransactionArg_InferenceRule$LINKS" />
+      <unit id="8603685652496709591" at="41,0,44,0" name="EnergyDSL.typesystem.typeof_TransactionArg_InferenceRule$CONCEPTS" />
+      <unit id="8603685652496709591" at="17,0,45,0" name="EnergyDSL.typesystem.typeof_TransactionArg_InferenceRule" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,13 @@
+State Machine SmartContract
+
+Events
+ init_e  init_i  init_pro  init_con  event  require  validate_prosumer  validate_consumer  validate_prosumers  validate_consumers  delete  sendtx  calculate_balances  order_elements 
+Variables
+<!TextGen not found for 'org.iets3.core.expr.statemachines.structure.StatemachineVar'!> <!TextGen not found for 'org.iets3.core.expr.statemachines.structure.StatemachineVar'!> <!TextGen not found for 'org.iets3.core.expr.statemachines.structure.StatemachineVar'!> <!TextGen not found for 'org.iets3.core.expr.statemachines.structure.StatemachineVar'!> <!TextGen not found for 'org.iets3.core.expr.statemachines.structure.StatemachineVar'!> <!TextGen not found for 'org.iets3.core.expr.statemachines.structure.StatemachineVar'!> <!TextGen not found for 'org.iets3.core.expr.statemachines.structure.StatemachineVar'!> <!TextGen not found for 'org.iets3.core.expr.statemachines.structure.StatemachineVar'!> <!TextGen not found for 'org.iets3.core.expr.statemachines.structure.StatemachineVar'!> <!TextGen not found for 'org.iets3.core.expr.statemachines.structure.StatemachineVar'!> <!TextGen not found for 'org.iets3.core.expr.statemachines.structure.StatemachineVar'!> <!TextGen not found for 'org.iets3.core.expr.statemachines.structure.StatemachineVar'!> <!TextGen not found for 'org.iets3.core.expr.statemachines.structure.StatemachineVar'!> <!TextGen not found for 'org.iets3.core.expr.statemachines.structure.StatemachineVar'!>
+
+Start State initial
+
+States
+ initial
+ init_e   => initialized initialized
+ 

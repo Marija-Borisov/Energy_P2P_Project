@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/_spreferences/CodeReviewPreferences/module.msd" folder="_spreferences" />
+      <modulePath path="$PROJECT_DIR$/_spreferences/TestExecutionPreferences/module.msd" folder="_spreferences" />
+      <modulePath path="$PROJECT_DIR$/devkits/EnergyDSLDevkit/EnergyDSLDevkit.devkit" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/EnergyDSL/EnergyDSL.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Energy_DSL/sandbox/Energy_DSL.sandbox.msd" folder="Energy_P2P_Pure_KernelF" />
+      <modulePath path="$PROJECT_DIR$/solutions/EnergyDSL.GenPlan/EnergyDSL.GenPlan.msd" folder="statemachineenergydsl" />
+      <modulePath path="$PROJECT_DIR$/solutions/EnergyDSL.runtime/EnergyDSL.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/EnergyDSLModels/EnergyDSLModels.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Energy_Program/Energy_Program.msd" folder="Energy_P2P_Pure_KernelF" />
+    </projectModules>
+  </component>
+</project>

@@ -1,0 +1,48 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Energytrading_Test" type="JUnit Tests" factoryName="JUnit Tests">
+    <myJUnitSettings>
+      <MyState>
+        <option name="myModelRef" />
+        <option name="myModuleRef" />
+        <option name="myInProcess" value="true" />
+        <option name="myReuseCaches" value="true" />
+        <option name="myOverrideCachesLocation" value="false" />
+        <option name="myDebug" value="true" />
+        <option name="myCachesPath" value="C:\Users\marija.borisov\AppData\Roaming\JetBrains\MPSJUnitRC0" />
+        <option name="myTestCases">
+          <list>
+            <option value="r:3608f733-f368-4483-9e04-16ea7df73bdc(Energy_DSL.structure)/5820093183719217806" />
+          </list>
+        </option>
+        <option name="myTestMethods">
+          <list />
+        </option>
+        <option name="myRunType" value="3" />
+      </MyState>
+    </myJUnitSettings>
+    <myJavaRunParameters>
+      <MyState>
+        <option name="myJavaParameters">
+          <JavaRunParameters>
+            <option name="jrePath" value="" />
+            <option name="programParameters" value="" />
+            <option name="useAlternativeJre" value="false" />
+            <option name="vmOptions" value="-ea" />
+            <option name="workingDirectory" value="C:\Program Files\JetBrains\MPS 2021.1" />
+          </JavaRunParameters>
+        </option>
+      </MyState>
+    </myJavaRunParameters>
+    <myDeploySettings>
+      <MyState>
+        <option name="myPluginsToDeploy">
+          <list />
+        </option>
+      </MyState>
+    </myDeploySettings>
+    <method v="2">
+      <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+      <option name="jetbrains.mps.execution.configurations.implementation.plugin.plugin.AssemblePluginsBeforeTask_BeforeTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

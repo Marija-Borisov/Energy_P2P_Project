@@ -1,0 +1,13 @@
+State Machine MyStateMachine
+
+Events
+ biding  finished 
+Variables
+<!TextGen not found for 'org.iets3.core.expr.statemachines.structure.StatemachineVar'!> <!TextGen not found for 'org.iets3.core.expr.statemachines.structure.StatemachineVar'!>
+
+Start State initialize
+
+States
+ initialize
+ biding   => initialized initialized
+ 

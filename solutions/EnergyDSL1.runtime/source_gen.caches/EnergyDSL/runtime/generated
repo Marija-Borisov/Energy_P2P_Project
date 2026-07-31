@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="30jzph9squcy3w3l7y5dh4unsa25vcy">
+  <files names="Asset.java:ConsumerData.java:Contract.java:Core.java:DSOData.java:EnergyOwnership.java:EnergyOwnershipSerializerDeserializer.java:ProsumerData.java:Prosumers.java:SmartContract.java:SmartContractData.java:State.java:StateMachine.java:Transition.java:Variable.java" />
+</product>
+

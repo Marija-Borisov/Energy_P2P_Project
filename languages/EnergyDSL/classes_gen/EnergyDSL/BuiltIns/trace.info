@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root nodeRef="r:b8e9e225-9fb5-4a92-bde1-f6038db85ce4(EnergyDSL.BuiltIns)/8507768290585956387">
+    <file name="AllowedNamesTransactions.java">
+      <node id="4297490745042116748" at="7,0,8,0" concept="0" trace="energyTrading" />
+      <node id="4297490745042124884" at="8,0,9,0" concept="0" trace="injectEnergy" />
+      <node id="4297490745042127841" at="9,0,10,0" concept="0" trace="aggregation" />
+      <node id="4297490745042130808" at="10,0,11,0" concept="0" trace="matching" />
+      <node id="4297490745042136037" at="11,0,12,0" concept="0" trace="tradeEnergy" />
+      <node id="4297490745041998520" at="13,0,14,0" concept="0" trace="createSmc" />
+      <node id="4297490745042003489" at="14,0,15,0" concept="0" trace="calculateBalances" />
+      <node id="4297490745042006206" at="15,0,16,0" concept="0" trace="orderElements" />
+      <node id="4297490745042011195" at="16,0,17,0" concept="0" trace="delete" />
+      <node id="4297490745042013932" at="18,0,19,0" concept="0" trace="event" />
+      <node id="4297490745042018941" at="19,0,20,0" concept="0" trace="require" />
+      <node id="4297490745042023960" at="20,0,21,0" concept="0" trace="register" />
+      <node id="4297490745042028989" at="21,0,22,0" concept="0" trace="balancesConsumerSet" />
+      <node id="4297490745042034028" at="22,0,23,0" concept="0" trace="balancesProsumerSet" />
+      <node id="4297490745042039077" at="23,0,24,0" concept="0" trace="validateProsumer" />
+      <node id="4297490745042041874" at="24,0,25,0" concept="0" trace="validateConsumer" />
+      <node id="4297490745042046943" at="25,0,26,0" concept="0" trace="proInit" />
+      <node id="4297490745042052022" at="26,0,27,0" concept="0" trace="conInit" />
+      <node id="4297490745042057111" at="27,0,28,0" concept="0" trace="getRegisteredConsumers" />
+      <node id="4297490745042062210" at="28,0,29,0" concept="0" trace="getRegisteredConsumersSize" />
+      <node id="4297490745043923605" at="29,0,30,0" concept="0" trace="getRegisteredProsumers" />
+      <node id="4297490745042067319" at="30,0,31,0" concept="0" trace="getRegisteredProsumersSize" />
+      <node id="4297490745042072632" at="31,0,32,0" concept="0" trace="validProsumersGet" />
+      <node id="4297490745042075499" at="32,0,33,0" concept="0" trace="validConsumersGet" />
+      <node id="4297490745042080638" at="33,0,34,0" concept="0" trace="setRegisteredProsumers" />
+      <node id="4297490745042085787" at="34,0,35,0" concept="0" trace="setRegisteredConsumers" />
+      <node id="4297490745042090946" at="35,0,36,0" concept="0" trace="registeredProsumerSet" />
+      <node id="4297490745042096115" at="36,0,37,0" concept="0" trace="registeredConsumerSet" />
+      <node id="4297490745042101294" at="37,0,38,0" concept="0" trace="smcGet" />
+      <node id="4297490745042106483" at="38,0,39,0" concept="0" trace="smcSet" />
+      <node id="1116876852848213577" at="40,0,41,0" concept="0" trace="oneGet" />
+      <node id="4297490745041883634" at="41,0,42,0" concept="0" trace="oneSet" />
+      <node id="4297490745041888373" at="42,0,43,0" concept="0" trace="reset" />
+      <node id="4297490745041893122" at="43,0,44,0" concept="0" trace="simpleGet" />
+      <node id="4297490745041897881" at="44,0,45,0" concept="0" trace="getState" />
+      <node id="4297490745041902650" at="45,0,46,0" concept="0" trace="addState" />
+      <node id="4297490745041905167" at="46,0,47,0" concept="0" trace="setState" />
+      <node id="4297490745041907567" at="47,0,48,0" concept="0" trace="setStateAdd" />
+      <node id="4297490745041912558" at="48,0,49,0" concept="0" trace="setOwnershipStructureAdd" />
+      <node id="4297490745041915981" at="49,0,50,0" concept="0" trace="simpleInit" />
+      <node id="4297490745041918536" at="50,0,51,0" concept="0" trace="sendTx" />
+      <node id="4297490745041923557" at="51,0,52,0" concept="0" trace="requireDso" />
+      <node id="4571094978611047514" at="52,0,53,0" concept="0" trace="deleteAsset" />
+      <node id="4297490745041936071" at="54,0,55,0" concept="0" trace="transfer" />
+      <node id="4297490745041940924" at="55,0,56,0" concept="0" trace="consumerGet" />
+      <node id="4297490745041948480" at="57,0,58,0" concept="0" trace="msg" />
+      <node id="4297490745041953355" at="58,0,59,0" concept="0" trace="prosumerGet" />
+      <node id="4297490745041958240" at="60,0,61,0" concept="0" trace="dsoSet" />
+      <node id="4297490745041970532" at="61,0,62,0" concept="0" trace="dsoGet" />
+      <node id="4297490745041975439" at="62,0,63,0" concept="0" trace="getDso" />
+      <node id="4297490745041980356" at="63,0,64,0" concept="0" trace="createDso" />
+      <node id="4297490745041983021" at="64,0,65,0" concept="0" trace="pricingDso" />
+      <node id="4297490745041987958" at="65,0,66,0" concept="0" trace="isDso" />
+      <node id="4297490745041992905" at="66,0,67,0" concept="0" trace="calculate" />
+      <unit id="8507768290585956387" at="6,0,69,0" name="EnergyDSL.BuiltIns.AllowedNamesTransactions" />
+    </file>
+  </root>
+</debug-info>
+

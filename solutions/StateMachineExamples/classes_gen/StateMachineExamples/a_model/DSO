@@ -1,0 +1,13 @@
+State Machine DSO
+
+Events
+ 
+Variables
+
+
+Start State init
+
+States
+ init
+  test
+ 

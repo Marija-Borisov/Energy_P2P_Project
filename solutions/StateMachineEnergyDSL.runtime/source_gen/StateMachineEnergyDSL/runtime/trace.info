@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:13fc1eba-ac28-48a2-af96-d7e561bb9934(StateMachineEnergyDSL.runtime)/1747923876936685936">
+    <file name="Variable.java">
+      <node id="1747923876936689345" at="7,0,8,0" concept="2" trace="test" />
+      <node id="1747923876936689367" at="9,29,10,18" concept="1" />
+      <node id="5042081749460176032" at="10,18,11,0" concept="7" />
+      <node id="1747923876936689277" at="9,0,13,0" concept="0" trace="Variable#(Ljava/lang/Object;)V" />
+      <scope id="1747923876936689280" at="9,29,11,0" />
+      <scope id="1747923876936689277" at="9,0,13,0">
+        <var name="t" id="1747923876936690023" />
+      </scope>
+      <unit id="1747923876936685936" at="6,0,14,0" name="StateMachineEnergyDSL.runtime.Variable" />
+    </file>
+  </root>
+  <root nodeRef="r:13fc1eba-ac28-48a2-af96-d7e561bb9934(StateMachineEnergyDSL.runtime)/5544528087567993045">
+    <file name="StateMachine.java">
+      <node id="5544528087567993183" at="10,0,11,0" concept="2" trace="startState" />
+      <node id="5644893578615120115" at="11,0,12,0" concept="8" trace="vr" />
+      <node id="6226064679563325555" at="12,0,13,0" concept="8" trace="types" />
+      <node id="5544528087567993240" at="15,0,16,0" concept="2" trace="states" />
+      <node id="5544528087567993392" at="17,41,18,33" concept="1" />
+      <node id="5544528087567996581" at="18,33,19,68" concept="1" />
+      <node id="5544528087568005039" at="22,32,23,27" concept="6" />
+      <node id="6226064679563326138" at="13,0,15,0" concept="9" trace="function#()V" />
+      <node id="5544528087568003140" at="22,0,25,0" concept="4" trace="getStartState#()LStateMachineEnergyDSL/runtime/State;" />
+      <node id="5544528087567993299" at="17,0,21,0" concept="0" trace="StateMachine#(LStateMachineEnergyDSL/runtime/State;)V" />
+      <scope id="6226064679563326141" at="13,36,13,36" />
+      <scope id="5544528087568003144" at="22,32,23,27" />
+      <scope id="6226064679563326138" at="13,0,15,0" />
+      <scope id="5544528087567993303" at="17,41,19,68" />
+      <scope id="5544528087568003140" at="22,0,25,0" />
+      <scope id="5544528087567993299" at="17,0,21,0">
+        <var name="startState" id="5544528087567993331" />
+      </scope>
+      <unit id="5544528087567993045" at="9,0,26,0" name="StateMachineEnergyDSL.runtime.StateMachine" />
+    </file>
+  </root>
+  <root nodeRef="r:13fc1eba-ac28-48a2-af96-d7e561bb9934(StateMachineEnergyDSL.runtime)/5544528087567993077">
+    <file name="State.java">
+      <node id="5544528087568007130" at="11,0,12,0" concept="2" trace="transitions" />
+      <node id="5544528087568007269" at="13,18,14,73" concept="1" />
+      <node id="5544528087568014502" at="17,66,18,60" concept="1" />
+      <node id="5544528087568022681" at="21,77,22,107" concept="5" />
+      <node id="5544528087568033613" at="23,30,24,18" concept="6" />
+      <node id="5544528087568035552" at="25,5,26,23" concept="6" />
+      <node id="5544528087568007228" at="13,0,16,0" concept="0" trace="State#()V" />
+      <node id="5544528087568013917" at="17,0,20,0" concept="4" trace="addTransition#(Ljava/lang/String;LStateMachineEnergyDSL/runtime/Transition;)V" />
+      <node id="5544528087568028221" at="22,107,25,5" concept="3" />
+      <node id="5544528087568020950" at="21,0,28,0" concept="4" trace="fireTransition#(Ljava/lang/String;Ljava/util/Map;)LStateMachineEnergyDSL/runtime/State;" />
+      <scope id="5544528087568007232" at="13,18,14,73" />
+      <scope id="5544528087568013920" at="17,66,18,60" />
+      <scope id="5544528087568028223" at="23,30,24,18" />
+      <scope id="5544528087568007228" at="13,0,16,0" />
+      <scope id="5544528087568013917" at="17,0,20,0">
+        <var name="event" id="5544528087568014102" />
+        <var name="transition" id="5544528087568014298" />
+      </scope>
+      <scope id="5544528087568020953" at="21,77,26,23">
+        <var name="targetState" id="5544528087568022682" />
+      </scope>
+      <scope id="5544528087568020950" at="21,0,28,0">
+        <var name="event" id="5544528087568021472" />
+        <var name="parameters" id="5544528087568021980" />
+      </scope>
+      <unit id="5544528087567993077" at="9,0,29,0" name="StateMachineEnergyDSL.runtime.State" />
+    </file>
+  </root>
+  <root nodeRef="r:13fc1eba-ac28-48a2-af96-d7e561bb9934(StateMachineEnergyDSL.runtime)/5544528087567993103">
+    <file name="Transition.java">
+      <node id="5544528087568037853" at="9,0,10,0" concept="2" trace="targetState" />
+      <node id="5544528087568038089" at="11,40,12,35" concept="1" />
+      <node id="5544528087568025174" at="15,0,16,0" concept="4" trace="fireEvent#(Ljava/util/Map;Ljava/lang/Object;)LStateMachineEnergyDSL/runtime/State;" />
+      <node id="5544528087568037951" at="11,0,14,0" concept="0" trace="Transition#(LStateMachineEnergyDSL/runtime/State;)V" />
+      <scope id="5544528087568037955" at="11,40,12,35" />
+      <scope id="5544528087568025174" at="15,0,16,0">
+        <var name="Parameter" id="5544528087568025201" />
+        <var name="vr" id="5644893578615098007" />
+      </scope>
+      <scope id="5544528087568037951" at="11,0,14,0">
+        <var name="targetState" id="5544528087568037998" />
+      </scope>
+      <unit id="5544528087567993103" at="7,0,17,0" name="StateMachineEnergyDSL.runtime.Transition" />
+    </file>
+  </root>
+  <root nodeRef="r:13fc1eba-ac28-48a2-af96-d7e561bb9934(StateMachineEnergyDSL.runtime)/5952831952111228192">
+    <file name="Core.java">
+      <node id="5952831952102789595" at="7,0,8,0" concept="8" trace="vr" />
+      <node id="5952831952102788705" at="8,0,9,0" concept="8" trace="types" />
+      <node id="5952831952102788708" at="9,0,11,0" concept="9" trace="function#()V" />
+      <scope id="5952831952102788709" at="9,36,9,36" />
+      <scope id="5952831952102788708" at="9,0,11,0" />
+      <unit id="5952831952111228192" at="6,0,13,0" name="StateMachineEnergyDSL.runtime.Core" />
+    </file>
+  </root>
+  <root nodeRef="r:13fc1eba-ac28-48a2-af96-d7e561bb9934(StateMachineEnergyDSL.runtime)/6304004765619648151">
+    <file name="Contract.java">
+      <node id="4541236711600356999" at="12,54,13,16" concept="6" />
+      <node id="4541236711600373207" at="16,56,17,16" concept="6" />
+      <node id="4541236711600356988" at="11,0,15,0" concept="4" trace="init#(Lorg/hyperledger/fabric/shim/ChaincodeStub;)Lorg/hyperledger/fabric/shim/Chaincode/Response;" />
+      <node id="4541236711600373196" at="15,0,19,0" concept="4" trace="invoke#(Lorg/hyperledger/fabric/shim/ChaincodeStub;)Lorg/hyperledger/fabric/shim/Chaincode/Response;" />
+      <scope id="4541236711600356996" at="12,54,13,16" />
+      <scope id="4541236711600373204" at="16,56,17,16" />
+      <scope id="4541236711600356988" at="11,0,15,0">
+        <var name="stub" id="4541236711600356992" />
+      </scope>
+      <scope id="4541236711600373196" at="15,0,19,0">
+        <var name="stub" id="4541236711600373200" />
+      </scope>
+      <unit id="6304004765619648151" at="9,0,20,0" name="StateMachineEnergyDSL.runtime.Contract" />
+    </file>
+  </root>
+  <root nodeRef="r:13fc1eba-ac28-48a2-af96-d7e561bb9934(StateMachineEnergyDSL.runtime)/6304004765627100125">
+    <file name="DSO.java">
+      <unit id="6304004765627100125" at="6,0,8,0" name="StateMachineEnergyDSL.runtime.DSO" />
+    </file>
+  </root>
+  <root nodeRef="r:13fc1eba-ac28-48a2-af96-d7e561bb9934(StateMachineEnergyDSL.runtime)/6330004848038848535">
+    <file name="Asset.java">
+      <node id="6330004848038848675" at="7,0,8,0" concept="2" trace="test" />
+      <node id="6330004848038848772" at="9,29,10,21" concept="1" />
+      <node id="6330004848038852914" at="14,27,15,16" concept="6" />
+      <node id="6330004848038854090" at="18,36,19,21" concept="1" />
+      <node id="6330004848038860564" at="24,32,25,19" concept="6" />
+      <node id="6330004848038862909" at="26,5,27,28" concept="5" />
+      <node id="6330004848038862708" at="27,28,28,0" concept="7" />
+      <node id="6330004848038870412" at="29,45,30,19" concept="6" />
+      <node id="6330004848038871518" at="31,5,32,0" concept="7" />
+      <node id="6330004848038872188" at="32,0,33,16" concept="6" />
+      <node id="6330004848038875495" at="37,28,38,23" concept="5" />
+      <node id="6330004848038879248" at="38,23,39,66" concept="1" />
+      <node id="6330004848038892573" at="39,66,40,18" concept="6" />
+      <node id="6330004848038852481" at="12,0,14,0" concept="0" trace="Asset#()V" />
+      <node id="6330004848038848723" at="9,0,12,0" concept="0" trace="Asset#(Ljava/lang/String;)V" />
+      <node id="6330004848038852697" at="14,0,17,0" concept="4" trace="getTest#()Ljava/lang/String;" />
+      <node id="6330004848038853933" at="18,0,21,0" concept="4" trace="setTest#(Ljava/lang/String;)V" />
+      <node id="6330004848038858189" at="23,35,26,5" concept="3" />
+      <node id="6330004848038864021" at="28,0,31,5" concept="3" />
+      <node id="6330004848038874227" at="36,0,42,0" concept="4" trace="toString#()Ljava/lang/String;" />
+      <node id="6330004848038856875" at="22,0,35,0" concept="4" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="6330004848038852485" at="12,21,12,21" />
+      <scope id="6330004848038848727" at="9,29,10,21" />
+      <scope id="6330004848038852700" at="14,27,15,16" />
+      <scope id="6330004848038853936" at="18,36,19,21" />
+      <scope id="6330004848038858191" at="24,32,25,19" />
+      <scope id="6330004848038864023" at="29,45,30,19" />
+      <scope id="6330004848038852481" at="12,0,14,0" />
+      <scope id="6330004848038848723" at="9,0,12,0">
+        <var name="test" id="6330004848038850551" />
+      </scope>
+      <scope id="6330004848038852697" at="14,0,17,0" />
+      <scope id="6330004848038853933" at="18,0,21,0">
+        <var name="test" id="6330004848038894771" />
+      </scope>
+      <scope id="6330004848038874230" at="37,28,40,18">
+        <var name="result" id="6330004848038875496" />
+      </scope>
+      <scope id="6330004848038874227" at="36,0,42,0" />
+      <scope id="6330004848038856879" at="23,35,33,16">
+        <var name="ast" id="6330004848038862912" />
+      </scope>
+      <scope id="6330004848038856875" at="22,0,35,0">
+        <var name="o" id="6330004848038857663" />
+      </scope>
+      <unit id="6330004848038848535" at="6,0,43,0" name="StateMachineEnergyDSL.runtime.Asset" />
+    </file>
+  </root>
+  <root nodeRef="r:13fc1eba-ac28-48a2-af96-d7e561bb9934(StateMachineEnergyDSL.runtime)/6448944337677946144">
+    <file name="Consumer.java">
+      <node id="8964690322817044171" at="8,0,9,0" concept="2" trace="status" />
+      <unit id="6448944337677946144" at="6,0,10,0" name="StateMachineEnergyDSL.runtime.Consumer" />
+    </file>
+  </root>
+</debug-info>
+

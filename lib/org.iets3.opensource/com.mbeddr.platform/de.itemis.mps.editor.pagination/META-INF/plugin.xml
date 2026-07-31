@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>de.itemis.mps.editor.pagination</id>
+  <name>MPS Editor pagination</name>
+  <description>Adds supports for displaying large collections in a paginated view</description>
+  <version>2022.2.3033.92b2e72</version>
+  <vendor url="https://www.itemis.com/en/it-services/methods-and-tools/mps">itemis AG</vendor>
+  <depends>jetbrains.mps.core</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>

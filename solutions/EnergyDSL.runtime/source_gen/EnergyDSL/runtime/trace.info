@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081855346303:jetbrains.mps.baseLanguage.structure.BreakStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:04b053ce-63e1-4223-a7db-0b7e8bfe6ede(EnergyDSL.runtime)/1368249722460835608">
+    <file name="ContractAsset.java">
+      <node id="1368249722450584778" at="8,0,9,0" concept="5" trace="updateProperty#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <scope id="1368249722450584778" at="8,0,9,0">
+        <var name="key" id="1368249722450584813" />
+        <var name="value" id="1368249722450584869" />
+      </scope>
+      <unit id="1368249722460835608" at="6,0,10,0" name="EnergyDSL.runtime.ContractAsset" />
+    </file>
+  </root>
+  <root nodeRef="r:04b053ce-63e1-4223-a7db-0b7e8bfe6ede(EnergyDSL.runtime)/1747923876936685936">
+    <file name="Variable.java">
+      <node id="1747923876936689345" at="7,0,8,0" concept="3" trace="test" />
+      <node id="1747923876936689367" at="9,29,10,18" concept="2" />
+      <node id="5042081749460176032" at="10,18,11,0" concept="8" />
+      <node id="1747923876936689277" at="9,0,13,0" concept="1" trace="Variable#(Ljava/lang/Object;)V" />
+      <scope id="1747923876936689280" at="9,29,11,0" />
+      <scope id="1747923876936689277" at="9,0,13,0">
+        <var name="t" id="1747923876936690023" />
+      </scope>
+      <unit id="1747923876936685936" at="6,0,14,0" name="EnergyDSL.runtime.Variable" />
+    </file>
+  </root>
+  <root nodeRef="r:04b053ce-63e1-4223-a7db-0b7e8bfe6ede(EnergyDSL.runtime)/4131402796315141384">
+    <file name="ChaincodeConstants.java">
+      <node id="4297490745042057111" at="9,0,10,0" concept="9" trace="getRegisteredConsumers" />
+      <node id="2067747029788705836" at="10,0,11,0" concept="9" trace="consumerContract" />
+      <node id="2067747029789371442" at="11,0,12,0" concept="9" trace="prosumerContract" />
+      <node id="2067747029790136000" at="12,0,13,0" concept="9" trace="smcContract" />
+      <node id="2067747029790746174" at="13,0,14,0" concept="9" trace="dsoContract" />
+      <node id="6684000509016366888" at="14,0,15,0" concept="9" trace="CONSUMER" />
+      <node id="6684000509016833109" at="15,0,16,0" concept="9" trace="PROSUMER" />
+      <node id="6684000509017041620" at="16,0,17,0" concept="9" trace="DSO" />
+      <node id="6684000509017277548" at="17,0,18,0" concept="9" trace="SMC" />
+      <node id="4297490745042116748" at="18,0,19,0" concept="9" trace="energyTrading" />
+      <node id="4297490745042124884" at="19,0,20,0" concept="9" trace="injectEnergy" />
+      <node id="4297490745042127841" at="20,0,21,0" concept="9" trace="aggregation" />
+      <node id="4297490745042130808" at="21,0,22,0" concept="9" trace="matching" />
+      <node id="4055611967994064966" at="22,0,23,0" concept="9" trace="match" />
+      <node id="4055611967996168728" at="23,0,24,0" concept="9" trace="purchased" />
+      <node id="4055611968016326665" at="24,0,25,0" concept="9" trace="board" />
+      <node id="4055611968017944199" at="25,0,26,0" concept="9" trace="inject" />
+      <node id="4055611968070322085" at="26,0,27,0" concept="9" trace="roundstart" />
+      <node id="4297490745042136037" at="29,0,30,0" concept="9" trace="tradeEnergy" />
+      <node id="4297490745041998520" at="30,0,31,0" concept="9" trace="createSmc" />
+      <node id="4297490745042003489" at="31,0,32,0" concept="9" trace="calculateBalances" />
+      <node id="4297490745042006206" at="32,0,33,0" concept="9" trace="orderElements" />
+      <node id="4297490745042011195" at="33,0,34,0" concept="9" trace="delete" />
+      <node id="4297490745042013932" at="34,0,35,0" concept="9" trace="event" />
+      <node id="4297490745042018941" at="35,0,36,0" concept="9" trace="require" />
+      <node id="4297490745042028989" at="36,0,37,0" concept="9" trace="balancesConsumerSet" />
+      <node id="4297490745042034028" at="37,0,38,0" concept="9" trace="balancesProsumerSet" />
+      <node id="4297490745042039077" at="38,0,39,0" concept="9" trace="validateProsumer" />
+      <node id="4297490745042041874" at="39,0,40,0" concept="9" trace="validateConsumer" />
+      <node id="4297490745042046943" at="40,0,41,0" concept="9" trace="proInit" />
+      <node id="4297490745042052022" at="41,0,42,0" concept="9" trace="conInit" />
+      <node id="4297490745042062210" at="42,0,43,0" concept="9" trace="getRegisteredConsumersSize" />
+      <node id="4297490745043923605" at="43,0,44,0" concept="9" trace="getRegisteredProsumers" />
+      <node id="4297490745042067319" at="44,0,45,0" concept="9" trace="getRegisteredProsumersSize" />
+      <node id="4297490745042072632" at="45,0,46,0" concept="9" trace="validProsumersGet" />
+      <node id="4297490745042075499" at="46,0,47,0" concept="9" trace="validConsumersGet" />
+      <node id="4297490745042080638" at="47,0,48,0" concept="9" trace="setRegisteredProsumers" />
+      <node id="4297490745042085787" at="48,0,49,0" concept="9" trace="setRegisteredConsumers" />
+      <node id="4297490745042090946" at="49,0,50,0" concept="9" trace="registeredProsumerSet" />
+      <node id="4297490745042096115" at="50,0,51,0" concept="9" trace="registeredConsumerSet" />
+      <node id="4297490745042101294" at="51,0,52,0" concept="9" trace="smcGet" />
+      <node id="4297490745042106483" at="52,0,53,0" concept="9" trace="smcSet" />
+      <node id="8476734854236625786" at="53,0,54,0" concept="9" trace="setAsset" />
+      <node id="1116876852848213577" at="54,0,55,0" concept="9" trace="oneGet" />
+      <node id="4297490745041883634" at="55,0,56,0" concept="9" trace="oneSet" />
+      <node id="4297490745041888373" at="56,0,57,0" concept="9" trace="reset" />
+      <node id="4297490745041893122" at="57,0,58,0" concept="9" trace="simpleGet" />
+      <node id="4297490745041897881" at="58,0,59,0" concept="9" trace="getState" />
+      <node id="4297490745041902650" at="59,0,60,0" concept="9" trace="addState" />
+      <node id="4297490745041905167" at="60,0,61,0" concept="9" trace="setState" />
+      <node id="4297490745041907567" at="61,0,62,0" concept="9" trace="setStateAdd" />
+      <node id="4297490745041912558" at="62,0,63,0" concept="9" trace="setOwnershipStructureAdd" />
+      <node id="4297490745041915981" at="63,0,64,0" concept="9" trace="simpleInit" />
+      <node id="4297490745041918536" at="64,0,65,0" concept="9" trace="sendTx" />
+      <node id="4297490745041923557" at="65,0,66,0" concept="9" trace="requireDso" />
+      <node id="4571094978611047514" at="66,0,67,0" concept="9" trace="deleteAsset" />
+      <node id="4297490745041936071" at="67,0,68,0" concept="9" trace="transfer" />
+      <node id="4297490745041940924" at="68,0,69,0" concept="9" trace="consumerGet" />
+      <node id="4297490745041948480" at="69,0,70,0" concept="9" trace="msg" />
+      <node id="4297490745041953355" at="70,0,71,0" concept="9" trace="prosumerGet" />
+      <node id="4297490745041958240" at="71,0,72,0" concept="9" trace="dsoSet" />
+      <node id="4297490745041970532" at="72,0,73,0" concept="9" trace="dsoGet" />
+      <node id="4297490745041975439" at="73,0,74,0" concept="9" trace="getDso" />
+      <node id="4297490745041980356" at="74,0,75,0" concept="9" trace="createDso" />
+      <node id="4297490745041983021" at="75,0,76,0" concept="9" trace="pricingDso" />
+      <node id="4297490745041987958" at="76,0,77,0" concept="9" trace="isDso" />
+      <node id="4297490745041992905" at="77,0,78,0" concept="9" trace="calculate" />
+      <node id="4055611968030493232" at="78,0,79,0" concept="9" trace="balance" />
+      <node id="4055611968069366595" at="79,0,80,0" concept="9" trace="trade" />
+      <node id="4055611968076630687" at="80,0,81,0" concept="9" trace="setIp" />
+      <node id="4055611968051280007" at="83,0,84,0" concept="9" trace="Pbalance" />
+      <node id="7925414591894370851" at="86,0,87,0" concept="9" trace="setbalancesc" />
+      <node id="4055611968027267511" at="87,0,88,0" concept="9" trace="setbalancesp" />
+      <node id="7925414591918833994" at="89,0,90,0" concept="9" trace="register" />
+      <node id="7925414591923381069" at="90,0,91,0" concept="9" trace="requestsell" />
+      <node id="4055611968031380895" at="91,0,92,0" concept="9" trace="injected" />
+      <node id="7925414591918198809" at="93,0,94,0" concept="9" trace="requestbuy" />
+      <node id="4055611967991372062" at="95,0,96,0" concept="9" trace="setOcjOwnershipStructure" />
+      <node id="4055611967992790666" at="96,0,97,0" concept="9" trace="setOpiOwnershipStructure" />
+      <node id="4055611967998618211" at="98,0,99,0" concept="9" trace="startDate" />
+      <node id="4055611967998619855" at="99,0,100,0" concept="9" trace="endDate" />
+      <node id="4055611968004093287" at="100,0,101,0" concept="9" trace="timestamp" />
+      <node id="4055611968010668714" at="101,0,102,0" concept="9" trace="Pmax" />
+      <node id="4055611968012156970" at="102,0,103,0" concept="9" trace="Smi" />
+      <node id="4055611968015040331" at="103,0,104,0" concept="9" trace="Dmj" />
+      <node id="4055611968045402784" at="104,0,105,0" concept="9" trace="Ei" />
+      <node id="4055611968049268976" at="105,0,106,0" concept="9" trace="Djt" />
+      <node id="4055611968071523361" at="106,0,107,0" concept="9" trace="Pcon" />
+      <node id="4055611968071523841" at="107,0,108,0" concept="9" trace="EDt" />
+      <node id="4055611968071524325" at="108,0,109,0" concept="9" trace="ESt" />
+      <node id="9009112411157028746" at="109,0,110,0" concept="9" trace="Op" />
+      <node id="9009112411165225656" at="110,0,111,0" concept="9" trace="Oc" />
+      <node id="4096373653064940831" at="113,0,114,0" concept="9" trace="PREFIX_CONSUMER" />
+      <node id="4096373653064940835" at="114,0,115,0" concept="9" trace="PREFIX_PROSUMER" />
+      <node id="9009112411193960244" at="115,0,116,0" concept="9" trace="SETTER_PREFIX" />
+      <node id="4096373653064940843" at="117,0,118,0" concept="9" trace="SUCCESS_STATUS" />
+      <node id="4096373653064940847" at="118,0,119,0" concept="9" trace="FIFTEEN_MINUTES" />
+      <node id="4096373653064940851" at="119,0,120,0" concept="9" trace="MILLISECONDS_IN_MINUTE" />
+      <node id="4055611968041916324" at="120,0,121,0" concept="9" trace="ZERO" />
+      <node id="4055611968053655156" at="121,0,122,0" concept="9" trace="PMAX" />
+      <node id="4055611968054862706" at="122,0,123,0" concept="9" trace="PBALANCE" />
+      <node id="4055611968056153548" at="123,0,124,0" concept="9" trace="PCON" />
+      <node id="4055611968057196276" at="124,0,125,0" concept="9" trace="K" />
+      <node id="4055611968058265845" at="125,0,126,0" concept="9" trace="DSO_ID" />
+      <node id="4055611968060433758" at="126,0,127,0" concept="9" trace="TRUE_STRING" />
+      <node id="4055611968060434210" at="127,0,128,0" concept="9" trace="FALSE_STRING" />
+      <node id="4055611968067083281" at="129,0,130,0" concept="9" trace="INVALID_ASSET_INPUT" />
+      <node id="9009112411167605708" at="130,0,131,0" concept="9" trace="TYPE_MISMATCH" />
+      <node id="9009112411167606713" at="131,0,132,0" concept="9" trace="PARSE_ERROR" />
+      <node id="9009112411167804314" at="132,0,133,0" concept="9" trace="GENERAL_ERROR" />
+      <node id="9009112411177827979" at="133,0,134,0" concept="9" trace="INDEX_ERROR" />
+      <node id="4055611968033135459" at="137,0,138,0" concept="9" trace="ZERO_INT" />
+      <node id="4055611968038240728" at="138,0,139,0" concept="9" trace="ZERO_DOUBLE" />
+      <node id="4055611968023278491" at="141,0,142,0" concept="9" trace="asset_index" />
+      <node id="4055611968027696521" at="142,0,143,0" concept="9" trace="prosumer_balance" />
+      <node id="4055611968028858902" at="143,0,144,0" concept="9" trace="num" />
+      <node id="4055611968046996327" at="144,0,145,0" concept="9" trace="valueN" />
+      <node id="9009112411148671097" at="145,0,146,0" concept="9" trace="empty_json_string" />
+      <node id="9009112411160203253" at="146,0,147,0" concept="9" trace="empty_array_string" />
+      <node id="4131402796315163519" at="7,0,9,0" concept="1" trace="ChaincodeConstants#()V" />
+      <scope id="4131402796315163522" at="7,31,7,31" />
+      <scope id="4131402796315163519" at="7,0,9,0" />
+      <unit id="4131402796315141384" at="6,0,151,0" name="EnergyDSL.runtime.ChaincodeConstants" />
+    </file>
+  </root>
+  <root nodeRef="r:04b053ce-63e1-4223-a7db-0b7e8bfe6ede(EnergyDSL.runtime)/4308596390894858588">
+    <file name="GlobalData.java">
+      <node id="4308596390894858683" at="7,0,8,0" concept="3" trace="Pmin" />
+      <node id="3368921937998302934" at="8,0,9,0" concept="3" trace="Pmax" />
+      <node id="3368921937998307756" at="10,27,11,21" concept="7" />
+      <node id="3368921937998307761" at="13,36,14,21" concept="2" />
+      <node id="3368921937998307776" at="16,27,17,21" concept="7" />
+      <node id="3368921937998307781" at="19,36,20,21" concept="2" />
+      <node id="3368921937998307752" at="10,0,13,0" concept="5" trace="getPmin#()Ljava/lang/String;" />
+      <node id="3368921937998307757" at="13,0,16,0" concept="5" trace="setPmin#(Ljava/lang/String;)V" />
+      <node id="3368921937998307772" at="16,0,19,0" concept="5" trace="getPmax#()Ljava/lang/String;" />
+      <node id="3368921937998307777" at="19,0,22,0" concept="5" trace="setPmax#(Ljava/lang/String;)V" />
+      <scope id="3368921937998307755" at="10,27,11,21" />
+      <scope id="3368921937998307760" at="13,36,14,21" />
+      <scope id="3368921937998307775" at="16,27,17,21" />
+      <scope id="3368921937998307780" at="19,36,20,21" />
+      <scope id="3368921937998307752" at="10,0,13,0" />
+      <scope id="3368921937998307757" at="13,0,16,0">
+        <var name="pmin" id="3368921937998307764" />
+      </scope>
+      <scope id="3368921937998307772" at="16,0,19,0" />
+      <scope id="3368921937998307777" at="19,0,22,0">
+        <var name="pmax" id="3368921937998307784" />
+      </scope>
+      <unit id="4308596390894858588" at="6,0,23,0" name="EnergyDSL.runtime.GlobalData" />
+    </file>
+  </root>
+  <root nodeRef="r:04b053ce-63e1-4223-a7db-0b7e8bfe6ede(EnergyDSL.runtime)/5544528087567993045">
+    <file name="StateMachine.java">
+      <node id="5544528087567993183" at="12,0,13,0" concept="3" trace="startState" />
+      <node id="5644893578615120115" at="13,0,14,0" concept="9" trace="vr" />
+      <node id="6226064679563325555" at="14,0,15,0" concept="9" trace="types" />
+      <node id="5162985149855686245" at="17,0,18,0" concept="9" trace="states" />
+      <node id="5544528087567993392" at="19,41,20,33" concept="2" />
+      <node id="5544528087567996581" at="20,33,21,63" concept="2" />
+      <node id="5544528087568005039" at="24,32,25,27" concept="7" />
+      <node id="5162985149855840940" at="29,57,30,31" concept="7" />
+      <node id="5162985149860030261" at="36,57,37,31" concept="7" />
+      <node id="6226064679563326138" at="15,0,17,0" concept="10" trace="function#()V" />
+      <node id="5544528087568003140" at="24,0,27,0" concept="5" trace="getStartState#()LEnergyDSL/runtime/State;" />
+      <node id="5162985149855840012" at="29,0,32,0" concept="5" trace="accept#(Ljetbrains/mps/internal/collections/runtime/IMapping;)Z" />
+      <node id="5162985149860030259" at="36,0,39,0" concept="5" trace="accept#(Ljetbrains/mps/internal/collections/runtime/IMapping;)Z" />
+      <node id="5544528087567993299" at="19,0,23,0" concept="1" trace="StateMachine#(LEnergyDSL/runtime/State;)V" />
+      <node id="5162985149855687331" at="27,48,32,15" concept="7" />
+      <node id="5162985149860030254" at="34,47,39,13" concept="7" />
+      <node id="5162985149855687327" at="27,0,34,0" concept="5" trace="getStateValue#(Ljava/lang/String;)LEnergyDSL/runtime/State;" />
+      <node id="5162985149860030250" at="34,0,41,0" concept="5" trace="getStateKey#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="6226064679563326141" at="15,36,15,36" />
+      <scope id="5544528087568003144" at="24,32,25,27" />
+      <scope id="5162985149855840013" at="29,57,30,31" />
+      <scope id="5162985149860030260" at="36,57,37,31" />
+      <scope id="6226064679563326138" at="15,0,17,0" />
+      <scope id="5544528087567993303" at="19,41,21,63" />
+      <scope id="5544528087568003140" at="24,0,27,0" />
+      <scope id="5162985149855840012" at="29,0,32,0">
+        <var name="it" id="5162985149855840012" />
+      </scope>
+      <scope id="5162985149860030259" at="36,0,39,0">
+        <var name="it" id="5162985149860030259" />
+      </scope>
+      <scope id="5544528087567993299" at="19,0,23,0">
+        <var name="startState" id="5544528087567993331" />
+      </scope>
+      <scope id="5162985149855687330" at="27,48,32,15" />
+      <scope id="5162985149860030253" at="34,47,39,13" />
+      <scope id="5162985149855687327" at="27,0,34,0">
+        <var name="str" id="5162985149855688220" />
+      </scope>
+      <scope id="5162985149860030250" at="34,0,41,0">
+        <var name="str" id="5162985149860030270" />
+      </scope>
+      <unit id="5162985149855840012" at="28,53,32,5" name="EnergyDSL.runtime.StateMachine$1" />
+      <unit id="5162985149860030259" at="35,53,39,5" name="EnergyDSL.runtime.StateMachine$2" />
+      <unit id="5544528087567993045" at="11,0,43,0" name="EnergyDSL.runtime.StateMachine" />
+    </file>
+  </root>
+  <root nodeRef="r:04b053ce-63e1-4223-a7db-0b7e8bfe6ede(EnergyDSL.runtime)/5544528087567993077">
+    <file name="State.java">
+      <node id="5544528087568007130" at="11,0,12,0" concept="3" trace="transitions" />
+      <node id="5162985149861004697" at="12,0,13,0" concept="3" trace="name" />
+      <node id="5162985149861000082" at="13,18,14,23" concept="2" />
+      <node id="5544528087568007269" at="14,23,15,73" concept="2" />
+      <node id="5162985149861011463" at="17,28,18,20" concept="2" />
+      <node id="5162985149860997111" at="18,20,19,73" concept="2" />
+      <node id="5162985149861013933" at="21,27,22,16" concept="7" />
+      <node id="5162985149861019536" at="24,35,25,20" concept="2" />
+      <node id="3690154391804819082" at="27,28,28,16" concept="7" />
+      <node id="5544528087568014502" at="31,66,32,60" concept="2" />
+      <node id="3690154391807627274" at="35,77,36,72" concept="6" />
+      <node id="3690154391807627284" at="37,29,38,94" concept="2" />
+      <node id="3690154391807627295" at="38,94,39,18" concept="7" />
+      <node id="3690154391807627298" at="40,5,41,74" concept="6" />
+      <node id="3690154391807627303" at="41,74,42,54" concept="7" />
+      <node id="3690154391807624594" at="42,54,43,0" concept="8" />
+      <node id="5162985149861013931" at="21,0,24,0" concept="5" trace="getName#()Ljava/lang/String;" />
+      <node id="5162985149861016681" at="24,0,27,0" concept="5" trace="setName#(Ljava/lang/String;)V" />
+      <node id="3690154391804817247" at="27,0,30,0" concept="5" trace="toString#()Ljava/lang/String;" />
+      <node id="5544528087568013917" at="31,0,34,0" concept="5" trace="addTransition#(Ljava/lang/String;LEnergyDSL/runtime/Transition;)V" />
+      <node id="5544528087568007228" at="13,0,17,0" concept="1" trace="State#()V" />
+      <node id="5162985149860997107" at="17,0,21,0" concept="1" trace="State#(Ljava/lang/String;)V" />
+      <node id="3690154391807627278" at="36,72,40,5" concept="4" />
+      <node id="5544528087568020950" at="35,0,45,0" concept="5" trace="fireTransition#(Ljava/lang/String;Ljava/util/Map;)LEnergyDSL/runtime/State;" />
+      <scope id="5162985149861013932" at="21,27,22,16" />
+      <scope id="5162985149861016682" at="24,35,25,20" />
+      <scope id="3690154391804817250" at="27,28,28,16" />
+      <scope id="5544528087568013920" at="31,66,32,60" />
+      <scope id="5544528087568007232" at="13,18,15,73" />
+      <scope id="5162985149860997110" at="17,28,19,73" />
+      <scope id="3690154391807627283" at="37,29,39,18" />
+      <scope id="5162985149861013931" at="21,0,24,0" />
+      <scope id="5162985149861016681" at="24,0,27,0">
+        <var name="str" id="5162985149861018634" />
+      </scope>
+      <scope id="3690154391804817247" at="27,0,30,0" />
+      <scope id="5544528087568013917" at="31,0,34,0">
+        <var name="event" id="5544528087568014102" />
+        <var name="transition" id="5544528087568014298" />
+      </scope>
+      <scope id="5544528087568007228" at="13,0,17,0" />
+      <scope id="5162985149860997107" at="17,0,21,0">
+        <var name="str" id="5162985149860997118" />
+      </scope>
+      <scope id="5544528087568020953" at="35,77,43,0">
+        <var name="targetState" id="3690154391807627297" />
+        <var name="transition" id="3690154391807627273" />
+      </scope>
+      <scope id="5544528087568020950" at="35,0,45,0">
+        <var name="event" id="5544528087568021472" />
+        <var name="parameters" id="5544528087568021980" />
+      </scope>
+      <unit id="5544528087567993077" at="9,0,46,0" name="EnergyDSL.runtime.State" />
+    </file>
+  </root>
+  <root nodeRef="r:04b053ce-63e1-4223-a7db-0b7e8bfe6ede(EnergyDSL.runtime)/5544528087567993103">
+    <file name="Transition.java">
+      <node id="5544528087568037853" at="9,0,10,0" concept="3" trace="targetState" />
+      <node id="5544528087568038089" at="11,40,12,35" concept="2" />
+      <node id="5544528087568025174" at="15,0,16,0" concept="5" trace="fireEvent#(Ljava/util/Map;Ljava/lang/Object;)LEnergyDSL/runtime/State;" />
+      <node id="5544528087568037951" at="11,0,14,0" concept="1" trace="Transition#(LEnergyDSL/runtime/State;)V" />
+      <scope id="5544528087568037955" at="11,40,12,35" />
+      <scope id="5544528087568025174" at="15,0,16,0">
+        <var name="Parameter" id="5544528087568025201" />
+        <var name="vr" id="5644893578615098007" />
+      </scope>
+      <scope id="5544528087568037951" at="11,0,14,0">
+        <var name="targetState" id="5544528087568037998" />
+      </scope>
+      <unit id="5544528087567993103" at="7,0,17,0" name="EnergyDSL.runtime.Transition" />
+    </file>
+  </root>
+  <root nodeRef="r:04b053ce-63e1-4223-a7db-0b7e8bfe6ede(EnergyDSL.runtime)/5653909062982428528">
+    <file name="EnergyOwnershipSerializerDeserializer.java">
+      <node id="5653909062982439492" at="14,65,15,39" concept="6" />
+      <node id="5653909062982446397" at="16,9,17,65" concept="6" />
+      <node id="5653909062982442488" at="18,27,19,26" concept="2" />
+      <node id="5653909062982446067" at="20,5,21,16" concept="7" />
+      <node id="5653909062982481141" at="24,9,25,56" concept="6" />
+      <node id="5653909062982485291" at="25,56,26,23" concept="7" />
+      <node id="5653909062982485653" at="28,5,29,16" concept="7" />
+      <node id="5653909062982487266" at="31,73,32,50" concept="6" />
+      <node id="5653909062982493713" at="32,50,33,21" concept="7" />
+      <node id="5653909062982495272" at="35,79,36,141" concept="6" />
+      <node id="5653909062982502188" at="36,141,37,33" concept="7" />
+      <node id="7356022493298224180" at="39,59,40,84" concept="6" />
+      <node id="7356022493298218928" at="40,84,41,0" concept="8" />
+      <node id="5653909062977535343" at="41,0,42,17" concept="7" />
+      <node id="7356022493313293465" at="44,69,45,98" concept="6" />
+      <node id="7356022493313293478" at="45,98,46,0" concept="8" />
+      <node id="7356022493313293479" at="46,0,47,17" concept="7" />
+      <node id="7356022493313299274" at="49,69,50,98" concept="6" />
+      <node id="7356022493313299287" at="50,98,51,0" concept="8" />
+      <node id="7356022493313299288" at="51,0,52,17" concept="7" />
+      <node id="7356022493313763486" at="54,59,55,88" concept="6" />
+      <node id="7356022493313763499" at="55,88,56,0" concept="8" />
+      <node id="7356022493313763500" at="56,0,57,17" concept="7" />
+      <node id="5653909062982486459" at="31,0,35,0" concept="10" trace="serializeArray#(Ljava/util/List;)Ljava/lang/String;" />
+      <node id="5653909062982494664" at="35,0,39,0" concept="10" trace="deserializeArray#(Ljava/lang/String;)Ljava/util/ArrayList;" />
+      <node id="5653909062982442183" at="15,39,20,5" concept="13" />
+      <node id="5653909062982481027" at="23,58,28,5" concept="13" />
+      <node id="3664470710745247204" at="39,0,44,0" concept="10" trace="deserializeAsset#(Ljava/lang/String;)LEnergyDSL/runtime/Asset;" />
+      <node id="7356022493313293463" at="44,0,49,0" concept="10" trace="deserializeProsumer#(Ljava/lang/String;)LEnergyDSL/runtime/ProsumerData;" />
+      <node id="7356022493313299272" at="49,0,54,0" concept="10" trace="deserializeConsumer#(Ljava/lang/String;)LEnergyDSL/runtime/ConsumerData;" />
+      <node id="7356022493313763484" at="54,0,59,0" concept="10" trace="deserializeDSO#(Ljava/lang/String;)LEnergyDSL/runtime/DSOData;" />
+      <node id="5653909062982480670" at="23,0,31,0" concept="10" trace="deserialize#(Ljava/lang/String;)LEnergyDSL/runtime/EnergyOwnership;" />
+      <node id="5653909062982428603" at="14,0,23,0" concept="10" trace="serialize#(LEnergyDSL/runtime/EnergyOwnership;)Lorg/json/JSONObject;" />
+      <scope id="5653909062982485026" at="27,27,27,27" />
+      <scope id="5653909062982442185" at="16,9,17,65">
+        <var name="fields" id="5653909062982446398" />
+      </scope>
+      <scope id="5653909062982442225" at="18,27,19,26" />
+      <scope id="5653909062982485023" at="27,5,28,5">
+        <var name="e" id="5653909062982485024" />
+      </scope>
+      <scope id="5653909062982442222" at="18,5,20,5">
+        <var name="e" id="5653909062982442223" />
+      </scope>
+      <scope id="5653909062982481028" at="24,9,26,23">
+        <var name="ownership" id="5653909062982481142" />
+      </scope>
+      <scope id="5653909062982486462" at="31,73,33,21">
+        <var name="jsonArray" id="5653909062982487267" />
+      </scope>
+      <scope id="5653909062982494667" at="35,79,37,33">
+        <var name="deserilizedOwnerships" id="5653909062982495275" />
+      </scope>
+      <scope id="3664470710743656290" at="39,59,42,17">
+        <var name="asset" id="7356022493298224186" />
+      </scope>
+      <scope id="7356022493313293464" at="44,69,47,17">
+        <var name="asset" id="7356022493313293466" />
+      </scope>
+      <scope id="7356022493313299273" at="49,69,52,17">
+        <var name="asset" id="7356022493313299275" />
+      </scope>
+      <scope id="7356022493313763485" at="54,59,57,17">
+        <var name="asset" id="7356022493313763487" />
+      </scope>
+      <scope id="5653909062982486459" at="31,0,35,0">
+        <var name="ownerships" id="5653909062982486771" />
+      </scope>
+      <scope id="5653909062982494664" at="35,0,39,0">
+        <var name="jsonArray" id="5653909062982495012" />
+      </scope>
+      <scope id="3664470710745247204" at="39,0,44,0">
+        <var name="jsonObject" id="3664470710743656603" />
+      </scope>
+      <scope id="7356022493313293463" at="44,0,49,0">
+        <var name="jsonObject" id="7356022493313293481" />
+      </scope>
+      <scope id="7356022493313299272" at="49,0,54,0">
+        <var name="jsonObject" id="7356022493313299290" />
+      </scope>
+      <scope id="7356022493313763484" at="54,0,59,0">
+        <var name="jsonObject" id="7356022493313763502" />
+      </scope>
+      <scope id="5653909062982480673" at="23,58,29,16" />
+      <scope id="5653909062982428606" at="14,65,21,16">
+        <var name="json" id="5653909062982439493" />
+      </scope>
+      <scope id="5653909062982480670" at="23,0,31,0">
+        <var name="json" id="5653909062982480928" />
+      </scope>
+      <scope id="5653909062982428603" at="14,0,23,0">
+        <var name="ownership" id="5653909062982439345" />
+      </scope>
+      <unit id="7356022493312618518" at="36,95,36,139" name="EnergyDSL.runtime.EnergyOwnershipSerializerDeserializer$1" />
+      <unit id="7356022493298279897" at="40,59,40,82" name="EnergyDSL.runtime.EnergyOwnershipSerializerDeserializer$2" />
+      <unit id="7356022493313293474" at="45,66,45,96" name="EnergyDSL.runtime.EnergyOwnershipSerializerDeserializer$3" />
+      <unit id="7356022493313299283" at="50,66,50,96" name="EnergyDSL.runtime.EnergyOwnershipSerializerDeserializer$4" />
+      <unit id="7356022493313763495" at="55,61,55,86" name="EnergyDSL.runtime.EnergyOwnershipSerializerDeserializer$5" />
+      <unit id="5653909062982428528" at="13,0,60,0" name="EnergyDSL.runtime.EnergyOwnershipSerializerDeserializer" />
+    </file>
+  </root>
+  <root nodeRef="r:04b053ce-63e1-4223-a7db-0b7e8bfe6ede(EnergyDSL.runtime)/5653909062982439273">
+    <file name="EnergyOwnership.java">
+      <node id="5653909062983453834" at="20,77,21,17" concept="2" />
+      <node id="5653909062983458814" at="21,17,22,25" concept="2" />
+      <node id="5653909062983462266" at="22,25,23,23" concept="2" />
+      <node id="5653909062983467485" at="23,23,24,24" concept="2" />
+      <node id="7216306572338483129" at="27,28,28,22" concept="2" />
+      <node id="5009008503196640214" at="28,22,29,18" concept="2" />
+      <node id="5009008503196640750" at="29,18,30,25" concept="2" />
+      <node id="5009008503196641429" at="30,25,31,27" concept="2" />
+      <node id="4235366749585627244" at="34,32,35,21" concept="7" />
+      <node id="4235366749585629191" at="38,28,39,17" concept="7" />
+      <node id="4235366749585630403" at="42,29,43,18" concept="7" />
+      <node id="4235366749756462541" at="46,35,47,20" concept="2" />
+      <node id="5009008503196627848" at="50,34,51,19" concept="2" />
+      <node id="4235366749761482742" at="54,38,55,23" concept="2" />
+      <node id="4971649337765843879" at="58,25,59,19" concept="7" />
+      <node id="4971649337765843884" at="62,32,63,17" concept="2" />
+      <node id="5653909062982696397" at="11,0,13,0" concept="3" trace="id" />
+      <node id="5653909062983453149" at="13,0,15,0" concept="3" trace="amount" />
+      <node id="5653909062983453208" at="15,0,17,0" concept="3" trace="state" />
+      <node id="5653909062983453261" at="17,0,19,0" concept="3" trace="timestamp" />
+      <node id="4235366749585626723" at="34,0,37,0" concept="5" trace="getTimestamp#()Ljava/lang/String;" />
+      <node id="4235366749585628821" at="38,0,41,0" concept="5" trace="getState#()Ljava/lang/String;" />
+      <node id="4235366749585630401" at="42,0,45,0" concept="5" trace="getAmount#()Ljava/lang/String;" />
+      <node id="4235366749756461407" at="46,0,49,0" concept="5" trace="setAmount#(Ljava/lang/String;)V" />
+      <node id="5009008503196627846" at="50,0,53,0" concept="5" trace="setState#(Ljava/lang/String;)V" />
+      <node id="4235366749761482740" at="54,0,57,0" concept="5" trace="setTimestamp#(Ljava/lang/String;)V" />
+      <node id="4971649337765843875" at="58,0,61,0" concept="5" trace="getId#()Ljava/lang/String;" />
+      <node id="4971649337765843880" at="62,0,65,0" concept="5" trace="setId#(Ljava/lang/String;)V" />
+      <node id="5653909062983453396" at="20,0,26,0" concept="1" trace="EnergyOwnership#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="5653909062983601610" at="27,0,33,0" concept="1" trace="EnergyOwnership#()V" />
+      <scope id="4235366749585626726" at="34,32,35,21" />
+      <scope id="4235366749585628824" at="38,28,39,17" />
+      <scope id="4235366749585630402" at="42,29,43,18" />
+      <scope id="4235366749756461410" at="46,35,47,20" />
+      <scope id="5009008503196627847" at="50,34,51,19" />
+      <scope id="4235366749761482741" at="54,38,55,23" />
+      <scope id="4971649337765843878" at="58,25,59,19" />
+      <scope id="4971649337765843883" at="62,32,63,17" />
+      <scope id="4235366749585626723" at="34,0,37,0" />
+      <scope id="4235366749585628821" at="38,0,41,0" />
+      <scope id="4235366749585630401" at="42,0,45,0" />
+      <scope id="4235366749756461407" at="46,0,49,0">
+        <var name="a" id="4235366749756462181" />
+      </scope>
+      <scope id="5009008503196627846" at="50,0,53,0">
+        <var name="a" id="5009008503196627856" />
+      </scope>
+      <scope id="4235366749761482740" at="54,0,57,0">
+        <var name="a" id="4235366749761482750" />
+      </scope>
+      <scope id="4971649337765843875" at="58,0,61,0" />
+      <scope id="4971649337765843880" at="62,0,65,0">
+        <var name="id" id="4971649337765843887" />
+      </scope>
+      <scope id="5653909062983453399" at="20,77,24,24" />
+      <scope id="5653909062983601613" at="27,28,31,27" />
+      <scope id="5653909062983453396" at="20,0,26,0">
+        <var name="amount" id="5653909062983453485" />
+        <var name="id" id="5653909062983453438" />
+        <var name="state" id="5653909062983453609" />
+        <var name="ts" id="5653909062983453719" />
+      </scope>
+      <scope id="5653909062983601610" at="27,0,33,0" />
+      <unit id="5653909062982439273" at="8,0,66,0" name="EnergyDSL.runtime.EnergyOwnership" />
+    </file>
+  </root>
+  <root nodeRef="r:04b053ce-63e1-4223-a7db-0b7e8bfe6ede(EnergyDSL.runtime)/5952831952111228192">
+    <file name="Core.java">
+      <node id="5952831952102789595" at="7,0,8,0" concept="9" trace="vr" />
+      <node id="5952831952102788705" at="8,0,9,0" concept="9" trace="types" />
+      <node id="5952831952102788708" at="9,0,11,0" concept="10" trace="function#()V" />
+      <scope id="5952831952102788709" at="9,36,9,36" />
+      <scope id="5952831952102788708" at="9,0,11,0" />
+      <unit id="5952831952111228192" at="6,0,13,0" name="EnergyDSL.runtime.Core" />
+    </file>
+  </root>
+  <root nodeRef="r:04b053ce-63e1-4223-a7db-0b7e8bfe6ede(EnergyDSL.runtime)/6304004765619648151">
+    <file name="Contract.java">
+      <node id="5653909062978263255" at="11,0,12,0" concept="3" trace="currentState" />
+      <node id="5653909062978256978" at="12,35,13,39" concept="6" />
+      <node id="5653909062978258784" at="13,39,14,50" concept="2" />
+      <node id="5653909062978263825" at="14,50,15,33" concept="2" />
+      <node id="5653909062978266713" at="15,33,16,24" concept="7" />
+      <node id="5653909062978256644" at="12,0,18,0" concept="5" trace="init#(Lorg/hyperledger/fabric/contract/Context;)Ljava/lang/String;" />
+      <scope id="5653909062978256647" at="12,35,16,24">
+        <var name="stub" id="5653909062978256979" />
+      </scope>
+      <scope id="5653909062978256644" at="12,0,18,0">
+        <var name="ctx" id="5653909062978256687" />
+      </scope>
+      <unit id="6304004765619648151" at="9,0,19,0" name="EnergyDSL.runtime.Contract" />
+    </file>
+  </root>
+  <root nodeRef="r:04b053ce-63e1-4223-a7db-0b7e8bfe6ede(EnergyDSL.runtime)/6304004765627100125">
+    <file name="DSOData.java">
+      <node id="435019753420815636" at="38,154,39,23" concept="2" />
+      <node id="435019753420815648" at="39,23,40,19" concept="2" />
+      <node id="435019753420815660" at="40,19,41,19" concept="2" />
+      <node id="435019753420815672" at="41,19,42,21" concept="2" />
+      <node id="435019753420815696" at="42,21,43,17" concept="2" />
+      <node id="435019753420815708" at="43,17,44,17" concept="2" />
+      <node id="435019753420815720" at="44,17,45,15" concept="2" />
+      <node id="435019753420815732" at="45,15,46,15" concept="2" />
+      <node id="435019753420815744" at="46,15,47,17" concept="2" />
+      <node id="435019753420815756" at="47,17,48,25" concept="2" />
+      <node id="9045495843159166210" at="48,25,49,29" concept="2" />
+      <node id="7826174424034028130" at="52,26,53,20" concept="7" />
+      <node id="7826174424034028135" at="56,34,57,19" concept="2" />
+      <node id="7826174424034028150" at="60,26,61,20" concept="7" />
+      <node id="7826174424034028155" at="64,34,65,19" concept="2" />
+      <node id="7826174424034028170" at="68,27,69,21" concept="7" />
+      <node id="7826174424034028175" at="72,36,73,21" concept="2" />
+      <node id="7826174424034028210" at="76,25,77,19" concept="7" />
+      <node id="7826174424034028215" at="80,32,81,17" concept="2" />
+      <node id="7826174424034028230" at="84,25,85,19" concept="7" />
+      <node id="7826174424034028235" at="88,32,89,17" concept="2" />
+      <node id="7826174424034028250" at="92,24,93,18" concept="7" />
+      <node id="7826174424034028255" at="96,30,97,15" concept="2" />
+      <node id="7826174424034028310" at="100,24,101,18" concept="7" />
+      <node id="7826174424034028315" at="104,30,105,15" concept="2" />
+      <node id="7826174424034028370" at="108,25,109,19" concept="7" />
+      <node id="7826174424034028375" at="112,32,113,17" concept="2" />
+      <node id="7826174424034028390" at="116,29,117,23" concept="7" />
+      <node id="7826174424034028395" at="120,40,121,25" concept="2" />
+      <node id="4971649337755007879" at="124,28,125,22" concept="7" />
+      <node id="4971649337755007884" at="128,38,129,23" concept="2" />
+      <node id="9045495843159163453" at="131,31,132,25" concept="7" />
+      <node id="9045495843159163458" at="134,44,135,29" concept="2" />
+      <node id="1879384370454567336" at="140,17,141,27" concept="2" />
+      <node id="1879384370454567341" at="141,27,142,14" concept="0" />
+      <node id="1879384370454567345" at="143,19,144,29" concept="2" />
+      <node id="1879384370454567350" at="144,29,145,14" concept="0" />
+      <node id="1879384370454567354" at="146,17,147,27" concept="2" />
+      <node id="1879384370454567359" at="147,27,148,14" concept="0" />
+      <node id="1879384370454567363" at="149,16,150,26" concept="2" />
+      <node id="1879384370454567368" at="150,26,151,14" concept="0" />
+      <node id="1879384370454567372" at="152,16,153,26" concept="2" />
+      <node id="1879384370454567377" at="153,26,154,14" concept="0" />
+      <node id="1879384370454567381" at="155,15,156,25" concept="2" />
+      <node id="1879384370454567386" at="156,25,157,14" concept="0" />
+      <node id="1879384370454567390" at="158,18,159,28" concept="2" />
+      <node id="1879384370454567395" at="159,28,160,14" concept="0" />
+      <node id="1879384370454567399" at="161,15,162,25" concept="2" />
+      <node id="1879384370454567404" at="162,25,163,14" concept="0" />
+      <node id="1879384370454567408" at="164,16,165,26" concept="2" />
+      <node id="1879384370454567413" at="165,26,166,14" concept="0" />
+      <node id="1879384370454567417" at="167,20,168,30" concept="2" />
+      <node id="1879384370454567422" at="168,30,169,14" concept="0" />
+      <node id="1879384370454567426" at="170,22,171,32" concept="2" />
+      <node id="1879384370454567431" at="171,32,172,14" concept="0" />
+      <node id="1368249722451410455" at="173,14,174,71" concept="12" />
+      <node id="7356022493298440552" at="11,0,13,0" concept="3" trace="dsoId" />
+      <node id="7356022493298440613" at="13,0,15,0" concept="3" trace="eSt" />
+      <node id="7356022493298440723" at="15,0,17,0" concept="3" trace="eDt" />
+      <node id="7356022493298441093" at="17,0,19,0" concept="3" trace="pcon" />
+      <node id="7356022493298440802" at="19,0,21,0" concept="3" trace="rt" />
+      <node id="7356022493298440890" at="21,0,23,0" concept="3" trace="dt" />
+      <node id="7356022493298440987" at="23,0,25,0" concept="3" trace="q" />
+      <node id="7356022493298441664" at="25,0,27,0" concept="3" trace="k" />
+      <node id="7356022493298442134" at="27,0,29,0" concept="3" trace="pt" />
+      <node id="7356022493298442312" at="29,0,31,0" concept="3" trace="deltat" />
+      <node id="9045495843159156945" at="31,0,33,0" concept="3" trace="pbalance" />
+      <node id="435019753420824180" at="35,0,37,0" concept="1" trace="DSOData#()V" />
+      <node id="7826174424034028126" at="52,0,55,0" concept="5" trace="getESt#()Ljava/lang/String;" />
+      <node id="7826174424034028131" at="56,0,59,0" concept="5" trace="setESt#(Ljava/lang/String;)V" />
+      <node id="7826174424034028146" at="60,0,63,0" concept="5" trace="getEDt#()Ljava/lang/String;" />
+      <node id="7826174424034028151" at="64,0,67,0" concept="5" trace="setEDt#(Ljava/lang/String;)V" />
+      <node id="7826174424034028166" at="68,0,71,0" concept="5" trace="getPcon#()Ljava/lang/String;" />
+      <node id="7826174424034028171" at="72,0,75,0" concept="5" trace="setPcon#(Ljava/lang/String;)V" />
+      <node id="7826174424034028206" at="76,0,79,0" concept="5" trace="getRt#()Ljava/lang/String;" />
+      <node id="7826174424034028211" at="80,0,83,0" concept="5" trace="setRt#(Ljava/lang/String;)V" />
+      <node id="7826174424034028226" at="84,0,87,0" concept="5" trace="getDt#()Ljava/lang/String;" />
+      <node id="7826174424034028231" at="88,0,91,0" concept="5" trace="setDt#(Ljava/lang/String;)V" />
+      <node id="7826174424034028246" at="92,0,95,0" concept="5" trace="getQ#()Ljava/lang/String;" />
+      <node id="7826174424034028251" at="96,0,99,0" concept="5" trace="setQ#(Ljava/lang/String;)V" />
+      <node id="7826174424034028306" at="100,0,103,0" concept="5" trace="getK#()Ljava/lang/String;" />
+      <node id="7826174424034028311" at="104,0,107,0" concept="5" trace="setK#(Ljava/lang/String;)V" />
+      <node id="7826174424034028366" at="108,0,111,0" concept="5" trace="getPt#()Ljava/lang/String;" />
+      <node id="7826174424034028371" at="112,0,115,0" concept="5" trace="setPt#(Ljava/lang/String;)V" />
+      <node id="7826174424034028386" at="116,0,119,0" concept="5" trace="getDeltat#()Ljava/lang/String;" />
+      <node id="7826174424034028391" at="120,0,123,0" concept="5" trace="setDeltat#(Ljava/lang/String;)V" />
+      <node id="4971649337755007875" at="124,0,127,0" concept="5" trace="getDsoId#()Ljava/lang/String;" />
+      <node id="4971649337755007880" at="128,0,131,0" concept="5" trace="setDsoId#(Ljava/lang/String;)V" />
+      <node id="9045495843159163449" at="131,0,134,0" concept="5" trace="getPbalance#()Ljava/lang/String;" />
+      <node id="9045495843159163454" at="134,0,137,0" concept="5" trace="setPbalance#(Ljava/lang/String;)V" />
+      <node id="435019753420815628" at="38,0,51,0" concept="1" trace="DSOData#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="1368249722451410405" at="138,56,175,5" concept="11" />
+      <node id="1368249722451410403" at="137,0,177,0" concept="5" trace="updateProperty#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <scope id="435019753420824184" at="35,20,35,20" />
+      <scope id="7826174424034028129" at="52,26,53,20" />
+      <scope id="7826174424034028134" at="56,34,57,19" />
+      <scope id="7826174424034028149" at="60,26,61,20" />
+      <scope id="7826174424034028154" at="64,34,65,19" />
+      <scope id="7826174424034028169" at="68,27,69,21" />
+      <scope id="7826174424034028174" at="72,36,73,21" />
+      <scope id="7826174424034028209" at="76,25,77,19" />
+      <scope id="7826174424034028214" at="80,32,81,17" />
+      <scope id="7826174424034028229" at="84,25,85,19" />
+      <scope id="7826174424034028234" at="88,32,89,17" />
+      <scope id="7826174424034028249" at="92,24,93,18" />
+      <scope id="7826174424034028254" at="96,30,97,15" />
+      <scope id="7826174424034028309" at="100,24,101,18" />
+      <scope id="7826174424034028314" at="104,30,105,15" />
+      <scope id="7826174424034028369" at="108,25,109,19" />
+      <scope id="7826174424034028374" at="112,32,113,17" />
+      <scope id="7826174424034028389" at="116,29,117,23" />
+      <scope id="7826174424034028394" at="120,40,121,25" />
+      <scope id="4971649337755007878" at="124,28,125,22" />
+      <scope id="4971649337755007883" at="128,38,129,23" />
+      <scope id="9045495843159163452" at="131,31,132,25" />
+      <scope id="9045495843159163457" at="134,44,135,29" />
+      <scope id="1368249722451410454" at="173,14,174,71" />
+      <scope id="435019753420824180" at="35,0,37,0" />
+      <scope id="1879384370454567335" at="140,17,142,14" />
+      <scope id="1879384370454567344" at="143,19,145,14" />
+      <scope id="1879384370454567353" at="146,17,148,14" />
+      <scope id="1879384370454567362" at="149,16,151,14" />
+      <scope id="1879384370454567371" at="152,16,154,14" />
+      <scope id="1879384370454567380" at="155,15,157,14" />
+      <scope id="1879384370454567389" at="158,18,160,14" />
+      <scope id="1879384370454567398" at="161,15,163,14" />
+      <scope id="1879384370454567407" at="164,16,166,14" />
+      <scope id="1879384370454567416" at="167,20,169,14" />
+      <scope id="1879384370454567425" at="170,22,172,14" />
+      <scope id="7826174424034028126" at="52,0,55,0" />
+      <scope id="7826174424034028131" at="56,0,59,0">
+        <var name="eSt" id="7826174424034028138" />
+      </scope>
+      <scope id="7826174424034028146" at="60,0,63,0" />
+      <scope id="7826174424034028151" at="64,0,67,0">
+        <var name="eDt" id="7826174424034028158" />
+      </scope>
+      <scope id="7826174424034028166" at="68,0,71,0" />
+      <scope id="7826174424034028171" at="72,0,75,0">
+        <var name="pcon" id="7826174424034028178" />
+      </scope>
+      <scope id="7826174424034028206" at="76,0,79,0" />
+      <scope id="7826174424034028211" at="80,0,83,0">
+        <var name="rt" id="7826174424034028218" />
+      </scope>
+      <scope id="7826174424034028226" at="84,0,87,0" />
+      <scope id="7826174424034028231" at="88,0,91,0">
+        <var name="dt" id="7826174424034028238" />
+      </scope>
+      <scope id="7826174424034028246" at="92,0,95,0" />
+      <scope id="7826174424034028251" at="96,0,99,0">
+        <var name="q" id="7826174424034028258" />
+      </scope>
+      <scope id="7826174424034028306" at="100,0,103,0" />
+      <scope id="7826174424034028311" at="104,0,107,0">
+        <var name="k" id="7826174424034028318" />
+      </scope>
+      <scope id="7826174424034028366" at="108,0,111,0" />
+      <scope id="7826174424034028371" at="112,0,115,0">
+        <var name="pt" id="7826174424034028378" />
+      </scope>
+      <scope id="7826174424034028386" at="116,0,119,0" />
+      <scope id="7826174424034028391" at="120,0,123,0">
+        <var name="deltat" id="7826174424034028398" />
+      </scope>
+      <scope id="4971649337755007875" at="124,0,127,0" />
+      <scope id="4971649337755007880" at="128,0,131,0">
+        <var name="dsoID" id="4971649337755007887" />
+      </scope>
+      <scope id="9045495843159163449" at="131,0,134,0" />
+      <scope id="9045495843159163454" at="134,0,137,0">
+        <var name="pbalance" id="9045495843159163461" />
+      </scope>
+      <scope id="435019753420815632" at="38,154,49,29" />
+      <scope id="435019753420815628" at="38,0,51,0">
+        <var name="deltat" id="435019753420815755" />
+        <var name="dsoId" id="435019753420815635" />
+        <var name="dt" id="435019753420815707" />
+        <var name="eDt" id="435019753420815659" />
+        <var name="eSt" id="435019753420815647" />
+        <var name="k" id="435019753420815731" />
+        <var name="pbalance" id="9045495843159165255" />
+        <var name="pcon" id="435019753420815671" />
+        <var name="pt" id="435019753420815743" />
+        <var name="q" id="435019753420815719" />
+        <var name="rt" id="435019753420815695" />
+      </scope>
+      <scope id="1368249722451410404" at="138,56,175,5" />
+      <scope id="1368249722451410403" at="137,0,177,0">
+        <var name="key" id="1368249722451410463" />
+        <var name="value" id="1368249722451410465" />
+      </scope>
+      <unit id="6304004765627100125" at="8,0,179,0" name="EnergyDSL.runtime.DSOData" />
+    </file>
+  </root>
+  <root nodeRef="r:04b053ce-63e1-4223-a7db-0b7e8bfe6ede(EnergyDSL.runtime)/6330004848038848535">
+    <file name="Asset.java">
+      <node id="6330004848038848675" at="10,0,11,0" concept="3" trace="asset" />
+      <node id="7216306572338474363" at="12,21,13,21" concept="2" />
+      <node id="6330004848038848772" at="15,29,16,22" concept="2" />
+      <node id="6330004848038852914" at="18,28,19,17" concept="7" />
+      <node id="6330004848038860564" at="24,32,25,19" concept="7" />
+      <node id="6330004848038862909" at="26,5,27,28" concept="6" />
+      <node id="6330004848038862708" at="27,28,28,0" concept="8" />
+      <node id="6330004848038870412" at="29,47,30,19" concept="7" />
+      <node id="6330004848038871518" at="31,5,32,0" concept="8" />
+      <node id="6330004848038872188" at="32,0,33,16" concept="7" />
+      <node id="6330004848038875495" at="37,28,38,23" concept="6" />
+      <node id="6330004848038879248" at="38,23,39,57" concept="2" />
+      <node id="6330004848038892573" at="39,57,40,18" concept="7" />
+      <node id="6330004848038854090" at="42,37,43,22" concept="2" />
+      <node id="5653909062963675791" at="46,28,47,61" concept="6" />
+      <node id="5653909062963675800" at="47,61,48,34" concept="2" />
+      <node id="5653909062963675808" at="48,34,49,43" concept="7" />
+      <node id="3664470710745088601" at="52,54,53,49" concept="6" />
+      <node id="3664470710745093957" at="53,49,54,43" concept="6" />
+      <node id="3664470710745097716" at="54,43,55,28" concept="7" />
+      <node id="6330004848038852481" at="12,0,15,0" concept="1" trace="Asset#()V" />
+      <node id="6330004848038848723" at="15,0,18,0" concept="1" trace="Asset#(Ljava/lang/String;)V" />
+      <node id="6330004848038852697" at="18,0,21,0" concept="5" trace="getAsset#()Ljava/lang/String;" />
+      <node id="6330004848038858189" at="23,35,26,5" concept="4" />
+      <node id="6330004848038864021" at="28,0,31,5" concept="4" />
+      <node id="6330004848038853933" at="42,0,45,0" concept="5" trace="setAsset#(Ljava/lang/String;)V" />
+      <node id="5653909062963675788" at="46,0,51,0" concept="5" trace="seralize#()Ljava/lang/String;" />
+      <node id="3664470710745086134" at="52,0,57,0" concept="10" trace="deserialize#(Ljava/lang/String;)LEnergyDSL/runtime/Asset;" />
+      <node id="6330004848038874227" at="36,0,42,0" concept="5" trace="toString#()Ljava/lang/String;" />
+      <node id="6330004848038856875" at="22,0,35,0" concept="5" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="6330004848038852485" at="12,21,13,21" />
+      <scope id="6330004848038848727" at="15,29,16,22" />
+      <scope id="6330004848038852700" at="18,28,19,17" />
+      <scope id="6330004848038858191" at="24,32,25,19" />
+      <scope id="6330004848038864023" at="29,47,30,19" />
+      <scope id="6330004848038853936" at="42,37,43,22" />
+      <scope id="6330004848038852481" at="12,0,15,0" />
+      <scope id="6330004848038848723" at="15,0,18,0">
+        <var name="test" id="6330004848038850551" />
+      </scope>
+      <scope id="6330004848038852697" at="18,0,21,0" />
+      <scope id="6330004848038874230" at="37,28,40,18">
+        <var name="result" id="6330004848038875496" />
+      </scope>
+      <scope id="6330004848038853933" at="42,0,45,0">
+        <var name="test" id="6330004848038894771" />
+      </scope>
+      <scope id="5653909062963675790" at="46,28,49,43">
+        <var name="tMap" id="5653909062963675792" />
+      </scope>
+      <scope id="3664470710745086137" at="52,54,55,28">
+        <var name="asset" id="3664470710745093958" />
+        <var name="json" id="3664470710745088602" />
+      </scope>
+      <scope id="5653909062963675788" at="46,0,51,0" />
+      <scope id="3664470710745086134" at="52,0,57,0">
+        <var name="posNumJSON" id="3664470710745087798" />
+      </scope>
+      <scope id="6330004848038874227" at="36,0,42,0" />
+      <scope id="6330004848038856879" at="23,35,33,16">
+        <var name="ast" id="6330004848038862912" />
+      </scope>
+      <scope id="6330004848038856875" at="22,0,35,0">
+        <var name="o" id="6330004848038857663" />
+      </scope>
+      <unit id="6330004848038848535" at="9,0,58,0" name="EnergyDSL.runtime.Asset" />
+    </file>
+  </root>
+  <root nodeRef="r:04b053ce-63e1-4223-a7db-0b7e8bfe6ede(EnergyDSL.runtime)/6448944337677946144">
+    <file name="ConsumerData.java">
+      <node id="435019753420807023" at="26,106,27,55" concept="2" />
+      <node id="435019753420807035" at="27,55,28,19" concept="2" />
+      <node id="435019753420807047" at="28,19,29,19" concept="2" />
+      <node id="435019753420807095" at="29,19,30,31" concept="2" />
+      <node id="435019753420807119" at="30,31,31,17" concept="2" />
+      <node id="7826174424068803754" at="34,44,35,38" concept="7" />
+      <node id="7826174424068803759" at="38,70,39,55" concept="2" />
+      <node id="7826174424068803774" at="42,26,43,20" concept="7" />
+      <node id="7826174424068803779" at="46,34,47,19" concept="2" />
+      <node id="7826174424068803794" at="50,26,51,20" concept="7" />
+      <node id="7826174424068803799" at="54,34,55,19" concept="2" />
+      <node id="7826174424068803894" at="58,32,59,26" concept="7" />
+      <node id="7826174424068803899" at="62,46,63,31" concept="2" />
+      <node id="7826174424068803974" at="66,25,67,19" concept="7" />
+      <node id="7826174424068803979" at="70,32,71,17" concept="2" />
+      <node id="1879384370454567145" at="77,23,78,33" concept="2" />
+      <node id="1879384370454567150" at="78,33,79,14" concept="0" />
+      <node id="1879384370454567154" at="80,16,81,26" concept="2" />
+      <node id="1879384370454567159" at="81,26,82,14" concept="0" />
+      <node id="1879384370454567163" at="83,35,84,45" concept="2" />
+      <node id="1879384370454567168" at="84,45,85,14" concept="0" />
+      <node id="1879384370454567172" at="86,17,87,27" concept="2" />
+      <node id="1879384370454567177" at="87,27,88,14" concept="0" />
+      <node id="1879384370454567181" at="89,17,90,27" concept="2" />
+      <node id="1879384370454567186" at="90,27,91,14" concept="0" />
+      <node id="1368249722451361942" at="92,14,93,71" concept="12" />
+      <node id="7356022493298432619" at="10,0,12,0" concept="3" trace="ocjOwnershipStructure" />
+      <node id="4308596390894828615" at="13,0,15,0" concept="3" trace="djt" />
+      <node id="4308596390894835819" at="15,0,17,0" concept="3" trace="dmj" />
+      <node id="7356022493298421171" at="17,0,19,0" concept="3" trace="balancesC" />
+      <node id="7356022493298426126" at="19,0,21,0" concept="3" trace="ic" />
+      <node id="435019753420811789" at="23,0,25,0" concept="1" trace="ConsumerData#()V" />
+      <node id="7826174424068803750" at="34,0,37,0" concept="5" trace="getOcjOwnershipStructure#()Ljava/lang/String;" />
+      <node id="7826174424068803755" at="38,0,41,0" concept="5" trace="setOcjOwnershipStructure#(Ljava/lang/String;)V" />
+      <node id="7826174424068803770" at="42,0,45,0" concept="5" trace="getDjt#()Ljava/lang/String;" />
+      <node id="7826174424068803775" at="46,0,49,0" concept="5" trace="setDjt#(Ljava/lang/String;)V" />
+      <node id="7826174424068803790" at="50,0,53,0" concept="5" trace="getDmj#()Ljava/lang/String;" />
+      <node id="7826174424068803795" at="54,0,57,0" concept="5" trace="setDmj#(Ljava/lang/String;)V" />
+      <node id="7826174424068803890" at="58,0,61,0" concept="5" trace="getBalancesC#()Ljava/lang/String;" />
+      <node id="7826174424068803895" at="62,0,65,0" concept="5" trace="setBalancesC#(Ljava/lang/String;)V" />
+      <node id="7826174424068803970" at="66,0,69,0" concept="5" trace="getIc#()Ljava/lang/String;" />
+      <node id="7826174424068803975" at="70,0,73,0" concept="5" trace="setIc#(Ljava/lang/String;)V" />
+      <node id="435019753420807015" at="26,0,33,0" concept="1" trace="ConsumerData#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="1879384370454567141" at="75,56,94,5" concept="11" />
+      <node id="1368249722450589101" at="74,0,96,0" concept="5" trace="updateProperty#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <scope id="435019753420811793" at="23,25,23,25" />
+      <scope id="7826174424068803753" at="34,44,35,38" />
+      <scope id="7826174424068803758" at="38,70,39,55" />
+      <scope id="7826174424068803773" at="42,26,43,20" />
+      <scope id="7826174424068803778" at="46,34,47,19" />
+      <scope id="7826174424068803793" at="50,26,51,20" />
+      <scope id="7826174424068803798" at="54,34,55,19" />
+      <scope id="7826174424068803893" at="58,32,59,26" />
+      <scope id="7826174424068803898" at="62,46,63,31" />
+      <scope id="7826174424068803973" at="66,25,67,19" />
+      <scope id="7826174424068803978" at="70,32,71,17" />
+      <scope id="1368249722451360978" at="92,14,93,71" />
+      <scope id="435019753420811789" at="23,0,25,0" />
+      <scope id="1879384370454567144" at="77,23,79,14" />
+      <scope id="1879384370454567153" at="80,16,82,14" />
+      <scope id="1879384370454567162" at="83,35,85,14" />
+      <scope id="1879384370454567171" at="86,17,88,14" />
+      <scope id="1879384370454567180" at="89,17,91,14" />
+      <scope id="7826174424068803750" at="34,0,37,0" />
+      <scope id="7826174424068803755" at="38,0,41,0">
+        <var name="ocjOwnershipStructure" id="7826174424068803762" />
+      </scope>
+      <scope id="7826174424068803770" at="42,0,45,0" />
+      <scope id="7826174424068803775" at="46,0,49,0">
+        <var name="djt" id="7826174424068803782" />
+      </scope>
+      <scope id="7826174424068803790" at="50,0,53,0" />
+      <scope id="7826174424068803795" at="54,0,57,0">
+        <var name="dmj" id="7826174424068803802" />
+      </scope>
+      <scope id="7826174424068803890" at="58,0,61,0" />
+      <scope id="7826174424068803895" at="62,0,65,0">
+        <var name="balancesC" id="7826174424068803902" />
+      </scope>
+      <scope id="7826174424068803970" at="66,0,69,0" />
+      <scope id="7826174424068803975" at="70,0,73,0">
+        <var name="ic" id="7826174424068803982" />
+      </scope>
+      <scope id="435019753420807019" at="26,106,31,17" />
+      <scope id="435019753420807015" at="26,0,33,0">
+        <var name="balancesC" id="435019753420807094" />
+        <var name="djt" id="435019753420807034" />
+        <var name="dmj" id="435019753420807046" />
+        <var name="ic" id="435019753420807118" />
+        <var name="ocjOwnershipStructure" id="435019753420807022" />
+      </scope>
+      <scope id="1368249722450589104" at="75,56,94,5" />
+      <scope id="1368249722450589101" at="74,0,96,0">
+        <var name="key" id="1368249722450590017" />
+        <var name="value" id="1368249722450590603" />
+      </scope>
+      <unit id="6448944337677946144" at="8,0,97,0" name="EnergyDSL.runtime.ConsumerData" />
+    </file>
+  </root>
+  <root nodeRef="r:04b053ce-63e1-4223-a7db-0b7e8bfe6ede(EnergyDSL.runtime)/7356022493286564475">
+    <file name="ProsumerData.java">
+      <node id="435019753420831754" at="26,117,27,55" concept="2" />
+      <node id="435019753420831766" at="27,55,28,17" concept="2" />
+      <node id="435019753420831778" at="28,17,29,19" concept="2" />
+      <node id="435019753420831790" at="29,19,30,31" concept="2" />
+      <node id="435019753420831802" at="30,31,31,19" concept="2" />
+      <node id="435019753420831850" at="31,19,32,17" concept="2" />
+      <node id="7826174424068828140" at="35,44,36,38" concept="7" />
+      <node id="7826174424068828145" at="39,70,40,55" concept="2" />
+      <node id="7826174424068828160" at="43,25,44,19" concept="7" />
+      <node id="7826174424068828165" at="47,32,48,17" concept="2" />
+      <node id="7826174424068828180" at="51,26,52,20" concept="7" />
+      <node id="7826174424068828185" at="55,34,56,19" concept="2" />
+      <node id="7826174424068828200" at="59,32,60,26" concept="7" />
+      <node id="7826174424068828205" at="63,46,64,31" concept="2" />
+      <node id="7826174424068828220" at="67,26,68,20" concept="7" />
+      <node id="7826174424068828225" at="71,34,72,19" concept="2" />
+      <node id="7826174424068828340" at="75,25,76,19" concept="7" />
+      <node id="7826174424068828345" at="79,32,80,17" concept="2" />
+      <node id="1879384370454566962" at="85,23,86,33" concept="2" />
+      <node id="1879384370454566967" at="86,33,87,14" concept="0" />
+      <node id="1879384370454566971" at="88,16,89,26" concept="2" />
+      <node id="1879384370454566976" at="89,26,90,14" concept="0" />
+      <node id="1879384370454566980" at="91,35,92,45" concept="2" />
+      <node id="1879384370454566985" at="92,45,93,14" concept="0" />
+      <node id="1879384370454566989" at="94,16,95,26" concept="2" />
+      <node id="1879384370454566994" at="95,26,96,14" concept="0" />
+      <node id="1879384370454566998" at="97,17,98,27" concept="2" />
+      <node id="1879384370454567003" at="98,27,99,14" concept="0" />
+      <node id="1879384370454567007" at="100,17,101,27" concept="2" />
+      <node id="1879384370454567012" at="101,27,102,14" concept="0" />
+      <node id="1368249722451644272" at="103,14,104,71" concept="12" />
+      <node id="1655708366389760043" at="10,0,12,0" concept="3" trace="opiOwnershipStructure" />
+      <node id="4308596390894800495" at="12,0,14,0" concept="3" trace="ei" />
+      <node id="4308596390894810224" at="14,0,16,0" concept="3" trace="smi" />
+      <node id="7356022493298438892" at="16,0,18,0" concept="3" trace="balancesP" />
+      <node id="7216306572362545575" at="18,0,20,0" concept="3" trace="sit" />
+      <node id="7356022493298438901" at="20,0,22,0" concept="3" trace="ip" />
+      <node id="435019753420834270" at="23,0,25,0" concept="1" trace="ProsumerData#()V" />
+      <node id="7826174424068828136" at="35,0,38,0" concept="5" trace="getOpiOwnershipStructure#()Ljava/lang/String;" />
+      <node id="7826174424068828141" at="39,0,42,0" concept="5" trace="setOpiOwnershipStructure#(Ljava/lang/String;)V" />
+      <node id="7826174424068828156" at="43,0,46,0" concept="5" trace="getEi#()Ljava/lang/String;" />
+      <node id="7826174424068828161" at="47,0,50,0" concept="5" trace="setEi#(Ljava/lang/String;)V" />
+      <node id="7826174424068828176" at="51,0,54,0" concept="5" trace="getSmi#()Ljava/lang/String;" />
+      <node id="7826174424068828181" at="55,0,58,0" concept="5" trace="setSmi#(Ljava/lang/String;)V" />
+      <node id="7826174424068828196" at="59,0,62,0" concept="5" trace="getBalancesP#()Ljava/lang/String;" />
+      <node id="7826174424068828201" at="63,0,66,0" concept="5" trace="setBalancesP#(Ljava/lang/String;)V" />
+      <node id="7826174424068828216" at="67,0,70,0" concept="5" trace="getSit#()Ljava/lang/String;" />
+      <node id="7826174424068828221" at="71,0,74,0" concept="5" trace="setSit#(Ljava/lang/String;)V" />
+      <node id="7826174424068828336" at="75,0,78,0" concept="5" trace="getIp#()Ljava/lang/String;" />
+      <node id="7826174424068828341" at="79,0,82,0" concept="5" trace="setIp#(Ljava/lang/String;)V" />
+      <node id="435019753420831746" at="26,0,34,0" concept="1" trace="ProsumerData#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="1368249722451644222" at="83,56,105,5" concept="11" />
+      <node id="1368249722451644220" at="82,0,107,0" concept="5" trace="updateProperty#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <scope id="435019753420834274" at="23,25,23,25" />
+      <scope id="7826174424068828139" at="35,44,36,38" />
+      <scope id="7826174424068828144" at="39,70,40,55" />
+      <scope id="7826174424068828159" at="43,25,44,19" />
+      <scope id="7826174424068828164" at="47,32,48,17" />
+      <scope id="7826174424068828179" at="51,26,52,20" />
+      <scope id="7826174424068828184" at="55,34,56,19" />
+      <scope id="7826174424068828199" at="59,32,60,26" />
+      <scope id="7826174424068828204" at="63,46,64,31" />
+      <scope id="7826174424068828219" at="67,26,68,20" />
+      <scope id="7826174424068828224" at="71,34,72,19" />
+      <scope id="7826174424068828339" at="75,25,76,19" />
+      <scope id="7826174424068828344" at="79,32,80,17" />
+      <scope id="1368249722451644271" at="103,14,104,71" />
+      <scope id="435019753420834270" at="23,0,25,0" />
+      <scope id="1879384370454566961" at="85,23,87,14" />
+      <scope id="1879384370454566970" at="88,16,90,14" />
+      <scope id="1879384370454566979" at="91,35,93,14" />
+      <scope id="1879384370454566988" at="94,16,96,14" />
+      <scope id="1879384370454566997" at="97,17,99,14" />
+      <scope id="1879384370454567006" at="100,17,102,14" />
+      <scope id="7826174424068828136" at="35,0,38,0" />
+      <scope id="7826174424068828141" at="39,0,42,0">
+        <var name="opiOwnershipStructure" id="7826174424068828148" />
+      </scope>
+      <scope id="7826174424068828156" at="43,0,46,0" />
+      <scope id="7826174424068828161" at="47,0,50,0">
+        <var name="ei" id="7826174424068828168" />
+      </scope>
+      <scope id="7826174424068828176" at="51,0,54,0" />
+      <scope id="7826174424068828181" at="55,0,58,0">
+        <var name="smi" id="7826174424068828188" />
+      </scope>
+      <scope id="7826174424068828196" at="59,0,62,0" />
+      <scope id="7826174424068828201" at="63,0,66,0">
+        <var name="balancesP" id="7826174424068828208" />
+      </scope>
+      <scope id="7826174424068828216" at="67,0,70,0" />
+      <scope id="7826174424068828221" at="71,0,74,0">
+        <var name="sit" id="7826174424068828228" />
+      </scope>
+      <scope id="7826174424068828336" at="75,0,78,0" />
+      <scope id="7826174424068828341" at="79,0,82,0">
+        <var name="ip" id="7826174424068828348" />
+      </scope>
+      <scope id="435019753420831750" at="26,117,32,17" />
+      <scope id="435019753420831746" at="26,0,34,0">
+        <var name="balancesP" id="435019753420831789" />
+        <var name="ei" id="435019753420831765" />
+        <var name="ip" id="435019753420831849" />
+        <var name="opiOwnershipStructure" id="435019753420831753" />
+        <var name="sit" id="435019753420831801" />
+        <var name="smi" id="435019753420831777" />
+      </scope>
+      <scope id="1368249722451644221" at="83,56,105,5" />
+      <scope id="1368249722451644220" at="82,0,107,0">
+        <var name="key" id="1368249722451644280" />
+        <var name="value" id="1368249722451644282" />
+      </scope>
+      <unit id="7356022493286564475" at="8,0,109,0" name="EnergyDSL.runtime.ProsumerData" />
+    </file>
+  </root>
+  <root nodeRef="r:04b053ce-63e1-4223-a7db-0b7e8bfe6ede(EnergyDSL.runtime)/7356022493312627427">
+    <file name="SmartContractData.java">
+      <node id="435019753420839621" at="28,162,29,29" concept="2" />
+      <node id="435019753420839645" at="29,29,30,29" concept="2" />
+      <node id="435019753420839657" at="30,29,31,29" concept="2" />
+      <node id="435019753420839669" at="31,29,32,51" concept="2" />
+      <node id="435019753420839681" at="32,51,33,51" concept="2" />
+      <node id="435019753420839705" at="33,51,34,21" concept="2" />
+      <node id="435019753420839717" at="34,21,35,23" concept="2" />
+      <node id="7826174424068839603" at="38,31,39,25" concept="7" />
+      <node id="7826174424068839608" at="42,44,43,29" concept="2" />
+      <node id="7826174424068839683" at="46,31,47,25" concept="7" />
+      <node id="7826174424068839688" at="50,44,51,29" concept="2" />
+      <node id="7826174424068839703" at="54,31,55,25" concept="7" />
+      <node id="7826174424068839708" at="58,44,59,29" concept="2" />
+      <node id="7826174424068839723" at="62,42,63,36" concept="7" />
+      <node id="7826174424068839728" at="66,66,67,51" concept="2" />
+      <node id="7826174424068839743" at="70,42,71,36" concept="7" />
+      <node id="7826174424068839748" at="74,66,75,51" concept="2" />
+      <node id="7826174424068839783" at="78,27,79,21" concept="7" />
+      <node id="7826174424068839788" at="82,36,83,21" concept="2" />
+      <node id="4971649337779918685" at="86,28,87,22" concept="7" />
+      <node id="4971649337779918690" at="90,38,91,23" concept="2" />
+      <node id="7356022493312662928" at="10,0,12,0" concept="3" trace="balances" />
+      <node id="7356022493312663492" at="12,0,14,0" concept="3" trace="initPros" />
+      <node id="7356022493312663590" at="14,0,16,0" concept="3" trace="initCons" />
+      <node id="7356022493312664629" at="16,0,18,0" concept="3" trace="registeredProsumers" />
+      <node id="7356022493312668096" at="18,0,20,0" concept="3" trace="registeredConsumers" />
+      <node id="7356022493312668472" at="20,0,22,0" concept="3" trace="pmax" />
+      <node id="4235366749671432999" at="22,0,24,0" concept="3" trace="dsoId" />
+      <node id="435019753420841788" at="25,0,27,0" concept="1" trace="SmartContractData#()V" />
+      <node id="7826174424068839599" at="38,0,41,0" concept="5" trace="getBalances#()Ljava/lang/String;" />
+      <node id="7826174424068839604" at="42,0,45,0" concept="5" trace="setBalances#(Ljava/lang/String;)V" />
+      <node id="7826174424068839679" at="46,0,49,0" concept="5" trace="getInitPros#()Ljava/lang/String;" />
+      <node id="7826174424068839684" at="50,0,53,0" concept="5" trace="setInitPros#(Ljava/lang/String;)V" />
+      <node id="7826174424068839699" at="54,0,57,0" concept="5" trace="getInitCons#()Ljava/lang/String;" />
+      <node id="7826174424068839704" at="58,0,61,0" concept="5" trace="setInitCons#(Ljava/lang/String;)V" />
+      <node id="7826174424068839719" at="62,0,65,0" concept="5" trace="getRegisteredProsumers#()Ljava/lang/String;" />
+      <node id="7826174424068839724" at="66,0,69,0" concept="5" trace="setRegisteredProsumers#(Ljava/lang/String;)V" />
+      <node id="7826174424068839739" at="70,0,73,0" concept="5" trace="getRegisteredConsumers#()Ljava/lang/String;" />
+      <node id="7826174424068839744" at="74,0,77,0" concept="5" trace="setRegisteredConsumers#(Ljava/lang/String;)V" />
+      <node id="7826174424068839779" at="78,0,81,0" concept="5" trace="getPmax#()Ljava/lang/String;" />
+      <node id="7826174424068839784" at="82,0,85,0" concept="5" trace="setPmax#(Ljava/lang/String;)V" />
+      <node id="4971649337779918681" at="86,0,89,0" concept="5" trace="getDsoId#()Ljava/lang/String;" />
+      <node id="4971649337779918686" at="90,0,93,0" concept="5" trace="setDsoId#(Ljava/lang/String;)V" />
+      <node id="6684000508975706499" at="93,0,96,0" concept="5" trace="updateProperty#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="435019753420839613" at="28,0,37,0" concept="1" trace="SmartContractData#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" />
+      <scope id="435019753420841792" at="25,30,25,30" />
+      <scope id="6684000508975706502" at="94,56,94,56" />
+      <scope id="7826174424068839602" at="38,31,39,25" />
+      <scope id="7826174424068839607" at="42,44,43,29" />
+      <scope id="7826174424068839682" at="46,31,47,25" />
+      <scope id="7826174424068839687" at="50,44,51,29" />
+      <scope id="7826174424068839702" at="54,31,55,25" />
+      <scope id="7826174424068839707" at="58,44,59,29" />
+      <scope id="7826174424068839722" at="62,42,63,36" />
+      <scope id="7826174424068839727" at="66,66,67,51" />
+      <scope id="7826174424068839742" at="70,42,71,36" />
+      <scope id="7826174424068839747" at="74,66,75,51" />
+      <scope id="7826174424068839782" at="78,27,79,21" />
+      <scope id="7826174424068839787" at="82,36,83,21" />
+      <scope id="4971649337779918684" at="86,28,87,22" />
+      <scope id="4971649337779918689" at="90,38,91,23" />
+      <scope id="435019753420841788" at="25,0,27,0" />
+      <scope id="7826174424068839599" at="38,0,41,0" />
+      <scope id="7826174424068839604" at="42,0,45,0">
+        <var name="balances" id="7826174424068839611" />
+      </scope>
+      <scope id="7826174424068839679" at="46,0,49,0" />
+      <scope id="7826174424068839684" at="50,0,53,0">
+        <var name="initPros" id="7826174424068839691" />
+      </scope>
+      <scope id="7826174424068839699" at="54,0,57,0" />
+      <scope id="7826174424068839704" at="58,0,61,0">
+        <var name="initCons" id="7826174424068839711" />
+      </scope>
+      <scope id="7826174424068839719" at="62,0,65,0" />
+      <scope id="7826174424068839724" at="66,0,69,0">
+        <var name="registeredProsumers" id="7826174424068839731" />
+      </scope>
+      <scope id="7826174424068839739" at="70,0,73,0" />
+      <scope id="7826174424068839744" at="74,0,77,0">
+        <var name="registeredConsumers" id="7826174424068839751" />
+      </scope>
+      <scope id="7826174424068839779" at="78,0,81,0" />
+      <scope id="7826174424068839784" at="82,0,85,0">
+        <var name="pmax" id="7826174424068839791" />
+      </scope>
+      <scope id="4971649337779918681" at="86,0,89,0" />
+      <scope id="4971649337779918686" at="90,0,93,0">
+        <var name="dsoId" id="4971649337779918693" />
+      </scope>
+      <scope id="6684000508975706499" at="93,0,96,0">
+        <var name="key" id="6684000508975707733" />
+        <var name="value" id="6684000508975708546" />
+      </scope>
+      <scope id="435019753420839617" at="28,162,35,23" />
+      <scope id="435019753420839613" at="28,0,37,0">
+        <var name="balances" id="435019753420839620" />
+        <var name="dsoId" id="435019753420839716" />
+        <var name="initCons" id="435019753420839656" />
+        <var name="initPros" id="435019753420839644" />
+        <var name="pmax" id="435019753420839704" />
+        <var name="registeredConsumers" id="435019753420839680" />
+        <var name="registeredProsumers" id="435019753420839668" />
+      </scope>
+      <unit id="7356022493312627427" at="8,0,97,0" name="EnergyDSL.runtime.SmartContractData" />
+    </file>
+  </root>
+</debug-info>
+

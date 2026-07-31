@@ -1,0 +1,12 @@
+State Machine Consumer
+
+Events
+ init_event 
+Variables
+<!TextGen not found for 'org.iets3.core.expr.statemachines.structure.StatemachineVar'!>
+
+Start State initial
+
+States
+ initial
+ init_event   => init
