@@ -768,19 +768,20 @@ Tests have been developed to see how the proposed program works. They are easily
 [Back to top](#SmartEnergyDSL--Energy-Light-DSL-in-MPS-and-KernelF)    •   [Back to Contents](./CONTENTS.md)
 
 ---
-## Important Notse on DSL and Generated Code
+## Important Notes on DSL and Generated Code
 
 ## Chaincodes:
 
 - Older version of Java Fabric is used, but it is enough to show that the proposed method could work for blockchain platforms
-- Some parts of the code use toString method, but only when it is a desired behaviour.
-- Some checks ar not present because problematic values are not possible
+- Some checks are not present because problematic values are not possible by design
 - String-based logic is predominant because strings are expected from the entry for all typs of assets and variables
 
 ## Java Code
 
-- State Machine generator is created because if the unfinished core generator
+- State Machine generator is created because of the unfinished core generator
 - Enumeration is created in the DSL so it is used instead of Enum that has a bug in code generation
+- Many concepts are improving MPS and KernelF concepts on which DSL and programs are built
+- Older version of Jetbrain MPS IDE is used, but it can be easily upgraded to the newer version that also supports correct desired KernelF and mbedder features
 ---
 
 ## Declaration of generative AI and AI-assisted technologies in the README preparation process.
