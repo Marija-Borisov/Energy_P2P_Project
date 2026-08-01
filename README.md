@@ -23,6 +23,7 @@
 - [Chaincodes](#Chaincodes)
 - [Hyperledger Fabric: command line invocations in test network](#Hyperledger-Fabric--Command-line-invocations-in-Test-network)
 - [Introduction to the KernelF program](#Introduction-to-the-KernelF-program)
+- [Important Notes on DSL and Generated Code](#Important-Notes-on-DSL-and-Generated-Code)
 - [References](#References)
   
 ---
@@ -770,18 +771,24 @@ Tests have been developed to see how the proposed program works. They are easily
 ---
 ## Important Notes on DSL and Generated Code
 
-## Chaincodes:
+### Chaincodes:
 
 - Older version of Java Fabric is used, but it is enough to show that the proposed method could work for blockchain platforms
 - Some checks are not present because problematic values are not possible by design
 - String-based logic is predominant because strings are expected from the entry for all typs of assets and variables
 
-## Java Code
+### Java Code
 
 - State Machine generator is created because of the unfinished core generator
 - Enumeration is created in the DSL so it is used instead of Enum that has a bug in code generation
 - Many concepts are improving MPS and KernelF concepts on which DSL and programs are built
 - Older version of Jetbrain MPS IDE is used, but it can be easily upgraded to the newer version that also supports correct desired KernelF and mbedder features
+
+### EnergyDSLModels.EnergyTradingContractsFabricExamplesPartialGen - "Playground" for domain experts 
+- This part of the project is left partially done and not up to coding standards, but it gives domain experts a way to try and check their innovative solutions regarding generation into Hyperledger Fabric chaincodes.
+- It is worth pointing out that EnergyDSLModels.StateMachinesWithCore also enables users to create their state machine and energy trading logic in them, and easily use generated Java code. 
+
+[Back to top](#SmartEnergyDSL--Energy-Light-DSL-in-MPS-and-KernelF)    •   [Back to Contents](./CONTENTS.md)
 ---
 
 ## Declaration of generative AI and AI-assisted technologies in the README preparation process.
