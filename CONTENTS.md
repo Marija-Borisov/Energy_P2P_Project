@@ -8,4 +8,5 @@
 - [Chaincodes](README.md#Chaincodes)
 - [Hyperledger Fabric: command line invocations in test network](README.md#Hyperledger-Fabric--Command-line-invocations-in-Test-network)
 - [Introduction to the KernelF program](README.md#Introduction-to-the-KernelF-program)
+- [Important Notes on DSL and Generated Code](README.md#Important-Notes-on-DSL-and-Generated-Code)
 - [References](README.md#References)
