@@ -786,9 +786,10 @@ Tests have been developed to see how the proposed program works. They are easily
 
 ### EnergyDSLModels.EnergyTradingContractsFabricExamplesPartialGen - "Playground" for domain experts 
 - This part of the project is left partially done and not up to coding standards, but it gives domain experts a way to try and check their innovative solutions regarding generation into Hyperledger Fabric chaincodes.
-- It is worth pointing out that EnergyDSLModels.StateMachinesWithCore also enables users to create their state machine and energy trading logic in them, and easily use generated Java code. 
+- It is worth pointing out that EnergyDSLModels.StateMachinesWithCore also enables users to create their state machines and energy trading logic in them, and easily use generated Java code. 
 
 [Back to top](#SmartEnergyDSL--Energy-Light-DSL-in-MPS-and-KernelF)    •   [Back to Contents](./CONTENTS.md)
+
 ---
 
 ## Declaration of generative AI and AI-assisted technologies in the README preparation process.
